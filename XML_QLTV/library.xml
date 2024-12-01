@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="library.xslt"?>
+<Library>
+	<Publishers>
+		<Publisher>
+			<PublisherID>1</PublisherID>
+			<PublisherName>Nhà xuất bản Kim Đồng</PublisherName>
+			<PublisherAddress>Số 55 Quang Trung, Hà Nội</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>2</PublisherID>
+			<PublisherName>Nhà xuất bản Trẻ</PublisherName>
+			<PublisherAddress>Số 161B Lý Chính Thắng, TP. Hồ Chí Minh</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>3</PublisherID>
+			<PublisherName>Nhà xuất bản Giáo dục</PublisherName>
+			<PublisherAddress>Số 45 Lê Thánh Tông, Hà Nội</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>4</PublisherID>
+			<PublisherName>Nhà xuất bản Văn học</PublisherName>
+			<PublisherAddress>Số 12 Hàng Gai, Hà Nội</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>5</PublisherID>
+			<PublisherName>Nhà xuất bản Lao Động</PublisherName>
+			<PublisherAddress>Số 25 Nguyễn Trãi, Hà Nội</PublisherAddress>
+		</Publisher>
+	</Publishers>
+	<Categories>
+		<Category>
+			<CategoryID>1</CategoryID>
+			<CategoryName>Tiểu thuyết</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>2</CategoryID>
+			<CategoryName>Truyện ngắn</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>3</CategoryID>
+			<CategoryName>Giáo dục</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>4</CategoryID>
+			<CategoryName>Truyện tranh</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>5</CategoryID>
+			<CategoryName>Khoa học viễn tưởng</CategoryName>
+		</Category>
+	</Categories>
+	<Students>
+		<Student>
+			<StudentID>1</StudentID>
+			<FirstName>Nguyễn Văn</FirstName>
+			<LastName>Linh</LastName>
+			<Email>nguyenlinh@example.com</Email>
+			<PhoneNumber>0912345678</PhoneNumber>
+			<StudentAddress>123 Đinh Tiên Hoàng, Hà Nội</StudentAddress>
+			<EnrollmentDate>2023-09-01</EnrollmentDate>
+		</Student>
+		<Student>
+			<StudentID>2</StudentID>
+			<FirstName>Lê Thị</FirstName>
+			<LastName>Hồng</LastName>
+			<Email>lethihong@example.com</Email>
+			<PhoneNumber>0987654321</PhoneNumber>
+			<StudentAddress>456 Trần Hưng Đạo, Đà Nẵng</StudentAddress>
+			<EnrollmentDate>2023-09-05</EnrollmentDate>
+		</Student>
+		<Student>
+			<StudentID>3</StudentID>
+			<FirstName>Trần Văn</FirstName>
+			<LastName>Nam</LastName>
+			<Email>tranvannam@example.com</Email>
+			<PhoneNumber>0978123456</PhoneNumber>
+			<StudentAddress>789 Nguyễn Văn Cừ, TP. Hồ Chí Minh</StudentAddress>
+			<EnrollmentDate>2023-09-10</EnrollmentDate>
+		</Student>
+		<Student>
+			<StudentID>4</StudentID>
+			<FirstName>Phạm Minh</FirstName>
+			<LastName>Triết</LastName>
+			<Email>phamtriet@example.com</Email>
+			<PhoneNumber>0934561234</PhoneNumber>
+			<StudentAddress>101 Hai Bà Trưng, Hà Nội</StudentAddress>
+			<EnrollmentDate>2023-08-20</EnrollmentDate>
+		</Student>
+		<Student>
+			<StudentID>5</StudentID>
+			<FirstName>Hoàng Thanh</FirstName>
+			<LastName>Tâm</LastName>
+			<Email>hoangtam@example.com</Email>
+			<PhoneNumber>0945678910</PhoneNumber>
+			<StudentAddress>202 Nguyễn Huệ, Huế</StudentAddress>
+			<EnrollmentDate>2023-07-15</EnrollmentDate>
+		</Student>
+	</Students>
+</Library>

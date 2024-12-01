@@ -1,0 +1,110 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignIn.aspx.cs" Inherits="XML_QLTV.SignIn" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Free Quote</title>
+    <link rel="stylesheet" href="path/to/your/css/styles.css"> <!-- Add your CSS path here -->
+    <!-- Add any additional JS or CSS for animations -->
+</head>
+<body>
+    <div id="free-quote" class="free-quote">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-4">
+                    <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h6>Get Your Free Quote</h6>
+                        <h4>Grow With Us Now</h4>
+                        <div class="line-dec"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                    <form id="search" runat="server" method="GET">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4">
+                                <fieldset>
+                                    <asp:TextBox ID="txtWebsite" runat="server" CssClass="website" placeholder="Your website URL..." AutoComplete="on" Required="True"></asp:TextBox>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4 col-sm-4">
+                                <fieldset>
+                                    <asp:TextBox ID="txtEmail" runat="server" CssClass="email" placeholder="Email Address..." AutoComplete="on" Required="True"></asp:TextBox>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-4 col-sm-4">
+                                <fieldset>
+                                    <asp:Button ID="btnGetQuote" runat="server" CssClass="main-button" Text="Get Quote Now" OnClick="signIn" />
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xslt" href="Homepage.xslt"?>
+<Library>
+	<Publishers>
+		<Publisher>
+			<PublisherID>1</PublisherID>
+			<PublisherName>Nhà xuất bản Kim Đồng</PublisherName>
+			<PublisherAddress>Số 55 Quang Trung, Hà Nội</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>2</PublisherID>
+			<PublisherName>Nhà xuất bản Trẻ</PublisherName>
+			<PublisherAddress>Số 161B Lý Chính Thắng, TP. Hồ Chí Minh</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>3</PublisherID>
+			<PublisherName>Nhà xuất bản Giáo dục</PublisherName>
+			<PublisherAddress>Số 45 Lê Thánh Tông, Hà Nội</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>4</PublisherID>
+			<PublisherName>Nhà xuất bản Văn học</PublisherName>
+			<PublisherAddress>Số 12 Hàng Gai, Hà Nội</PublisherAddress>
+		</Publisher>
+		<Publisher>
+			<PublisherID>5</PublisherID>
+			<PublisherName>Nhà xuất bản Lao Động</PublisherName>
+			<PublisherAddress>Số 25 Nguyễn Trãi, Hà Nội</PublisherAddress>
+		</Publisher>
+	</Publishers>
+	<Categories>
+		<Category>
+			<CategoryID>1</CategoryID>
+			<CategoryName>Tiểu thuyết</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>2</CategoryID>
+			<CategoryName>Truyện ngắn</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>3</CategoryID>
+			<CategoryName>Giáo dục</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>4</CategoryID>
+			<CategoryName>Truyện tranh</CategoryName>
+		</Category>
+		<Category>
+			<CategoryID>5</CategoryID>
+			<CategoryName>Khoa học viễn tưởng</CategoryName>
+		</Category>
+	</Categories>
+</Library>
