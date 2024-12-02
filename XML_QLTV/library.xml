@@ -97,4 +97,88 @@
 			<EnrollmentDate>2023-07-15</EnrollmentDate>
 		</Student>
 	</Students>
+	<Books>
+		<Book>
+			<BookID>1</BookID>
+			<Title>Tôi thấy hoa vàng trên cỏ xanh</Title>
+			<PublisherID>2</PublisherID>
+			<CategoryID>1</CategoryID>
+			<PublishedYear>2010</PublishedYear>
+			<Quantity>10</Quantity>
+		</Book>
+		<Book>
+			<BookID>2</BookID>
+			<Title>Harry Potter và hòn đá phù thủy</Title>
+			<PublisherID>2</PublisherID>
+			<CategoryID>5</CategoryID>
+			<PublishedYear>1997</PublishedYear>
+			<Quantity>15</Quantity>
+		</Book>
+		<Book>
+			<BookID>3</BookID>
+			<Title>Những người khốn khổ</Title>
+			<PublisherID>4</PublisherID>
+			<CategoryID>1</CategoryID>
+			<PublishedYear>1862</PublishedYear>
+			<Quantity>12</Quantity>
+		</Book>
+		<Book>
+			<BookID>4</BookID>
+			<Title>Thần điêu đại hiệp</Title>
+			<PublisherID>5</PublisherID>
+			<CategoryID>1</CategoryID>
+			<PublishedYear>1959</PublishedYear>
+			<Quantity>8</Quantity>
+		</Book>
+		<Book>
+			<BookID>5</BookID>
+			<Title>Doraemon tập 1</Title>
+			<PublisherID>1</PublisherID>
+			<CategoryID>4</CategoryID>
+			<PublishedYear>2002</PublishedYear>
+			<Quantity>20</Quantity>
+		</Book>
+	</Books>
+	<BorrowingRecords>
+		<BorrowingRecord>
+			<BorrowID>1</BorrowID>
+			<StudentID>1</StudentID>
+			<BookID>1</BookID>
+			<BorrowDate>2023-10-01</BorrowDate>
+			<DueDate>2023-10-15</DueDate>
+			<ReturnDate/>
+		</BorrowingRecord>
+		<BorrowingRecord>
+			<BorrowID>2</BorrowID>
+			<StudentID>2</StudentID>
+			<BookID>2</BookID>
+			<BorrowDate>2023-11-01</BorrowDate>
+			<DueDate>2023-11-20</DueDate>
+			<ReturnDate>2023-11-18</ReturnDate>
+		</BorrowingRecord>
+		<BorrowingRecord>
+			<BorrowID>3</BorrowID>
+			<StudentID>3</StudentID>
+			<BookID>3</BookID>
+			<BorrowDate>2023-11-05</BorrowDate>
+			<DueDate>2023-11-15</DueDate>
+			<ReturnDate>2023-11-25</ReturnDate>
+		</BorrowingRecord>
+		<BorrowingRecord>
+			<BorrowID>4</BorrowID>
+			<StudentID>4</StudentID>
+			<BookID>4</BookID>
+			<BorrowDate>2023-10-10</BorrowDate>
+			<DueDate>2023-10-25</DueDate>
+			<ReturnDate/>
+		</BorrowingRecord>
+		<BorrowingRecord>
+			<BorrowID>5</BorrowID>
+			<StudentID>5</StudentID>
+			<BookID>5</BookID>
+			<BorrowDate>2023-09-15</BorrowDate>
+			<DueDate>2023-09-30</DueDate>
+			<ReturnDate>2023-10-01</ReturnDate>
+		</BorrowingRecord>
+	</BorrowingRecords>
 </Library>

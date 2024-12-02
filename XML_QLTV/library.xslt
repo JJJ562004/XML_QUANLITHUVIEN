@@ -212,23 +212,31 @@
 													<div class="first-thumb active">
 														<div class="thumb">
 															<span class="icon">
-																<img src="assets/images/service-icon-01.png" alt="Category Icon"/>
+																<img src="assets/images/service-icon-02.png" alt="Category Icon"/>
 															</span>
-															<xsl:value-of select="/Categories/Category[1]/CategoryName"/>
-														</div>																								
-													</div>
-													<xsl:for-each select="/Categories/Category[position() > 1]">
-														<div>
-															<div class="thumb">
-																<span class="icon">
-																	<img src="assets/images/service-icon-01.png" alt="Category Icon"/>
-																</span>
-																<xsl:value-of select="CategoryName"/>
-															</div>
+															<xsl:value-of select="Categories/Category[1]/CategoryName"/>
 														</div>
-													</xsl:for-each>																																													
+													</div>
+													<xsl:for-each select="Categories/Category[position() > 1]">
+														<div class="thumb">
+															<span class="icon">
+																<img src="assets/images/service-icon-02.png" alt="Category Icon"/>
+															</span>
+															<xsl:value-of select="CategoryName"/>
+														</div>
+													</xsl:for-each>
 												</div>
 											</div>
+											<xsl:variable name="firstcategoryID" select="Categories/Category[1]/CategoryID" />
+											<xsl:variable name="firstcategoryName" select="Categories/Category[1]/CategoryName" />
+											<xsl:variable name="firstMostBorrowedBook">
+												<xsl:for-each select="/Library/Books/Book[CategoryID = $firstcategoryID]">
+													<xsl:sort select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = BookID])" order="descending"/>
+													<xsl:if test="position() = 1">
+														<xsl:value-of select="Title"/>
+													</xsl:if>
+												</xsl:for-each>
+											</xsl:variable>
 											<div class="col-lg-12">
 												<ul class="nacc">
 													<li class="active">
@@ -237,215 +245,78 @@
 																<div class="row">
 																	<div class="col-lg-6 align-self-center">
 																		<div class="left-text">
-																			<h4>SEO Analysis &amp; Daily Reports</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
+																			<h4>
+																				<xsl:value-of select="$firstMostBorrowedBook"/>
+																			</h4>
 																			<div class="ticks-list">
 																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
+																					<xsl:value-of select="$firstcategoryName" />
 																				</span>
 																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
+																			<p>
+																				Số lần được mượn nhiều nhất: <xsl:value-of select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = BookID])"/>
+																			</p>
 																		</div>
 																	</div>
 																	<div class="col-lg-6 align-self-center">
 																		<div class="right-image">
-																			<img src="assets/images/services-image.jpg" alt=""/>
+																			<img src="assets/images/portfolio-03.jpg" alt="Book Image" />
 																		</div>
 																	</div>
 																</div>
 															</div>
 														</div>
 													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Healthy Food &amp; Life</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
+													<xsl:for-each select="Categories/Category[position() > 1]">
+														<xsl:variable name="categoryID" select="CategoryID" />
+														<xsl:variable name="categoryName" select="CategoryName" />
+														<xsl:variable name="booksInCategory" select="/Library/Books/Book[CategoryID = $categoryID]" />
+														<xsl:choose>
+															<xsl:when test="count($booksInCategory) > 0">
+																<xsl:variable name="mostBorrowedBook">
+																	<xsl:for-each select="/Library/Books/Book[CategoryID = $categoryID]">
+																		<xsl:sort select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = current()/BookID])" order="descending" />
+																		<xsl:if test="position() = 1">
+																			<xsl:value-of select="Title"/>
+																		</xsl:if>
+																	</xsl:for-each>
+																</xsl:variable>
+																<li>
+																	<div>
+																		<div class="thumb">
+																			<div class="row">
+																				<div class="col-lg-6 align-self-center">
+																					<div class="left-text">
+																						<h4>
+																							<xsl:value-of select="$mostBorrowedBook" />
+																						</h4>
+																						<div class="ticks-list">
+																							<span>
+																								<xsl:value-of select="$categoryName" />
+																							</span>
+																						</div>
+																						<p>
+																							Số lần được mượn nhiều nhất:
+																							<xsl:value-of select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = BookID])" />
+																						</p>
+																					</div>
+																				</div>
+																				<div class="col-lg-6 align-self-center">
+																					<div class="right-image">
+																						<img src="assets/images/portfolio-03.jpg" alt="Book Image" />
+																					</div>
+																				</div>
 																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
 																		</div>
 																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image-02.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Car Re-search &amp; Transport</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
-																		</div>
-																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image-03.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Online Shopping &amp; Tracking ID</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
-																		</div>
-																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image-04.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Enjoy &amp; Travel</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
-																		</div>
-																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
+																</li>
+															</xsl:when>
+															<xsl:otherwise>
+																<li>Chưa có sách đã mượn.</li>
+															</xsl:otherwise>
+														</xsl:choose>
+													</xsl:for-each>
+
 												</ul>
 											</div>
 										</div>
