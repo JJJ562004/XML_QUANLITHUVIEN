@@ -212,23 +212,31 @@
 													<div class="first-thumb active">
 														<div class="thumb">
 															<span class="icon">
-																<img src="assets/images/service-icon-01.png" alt="Category Icon"/>
+																<img src="assets/images/service-icon-02.png" alt="Category Icon"/>
 															</span>
-															<xsl:value-of select="/Categories/Category[1]/CategoryName"/>
-														</div>																								
-													</div>
-													<xsl:for-each select="/Categories/Category[position() > 1]">
-														<div>
-															<div class="thumb">
-																<span class="icon">
-																	<img src="assets/images/service-icon-01.png" alt="Category Icon"/>
-																</span>
-																<xsl:value-of select="CategoryName"/>
-															</div>
+															<xsl:value-of select="Categories/Category[1]/CategoryName"/>
 														</div>
-													</xsl:for-each>																																													
+													</div>
+													<xsl:for-each select="Categories/Category[position() > 1]">
+														<div class="thumb">
+															<span class="icon">
+																<img src="assets/images/service-icon-02.png" alt="Category Icon"/>
+															</span>
+															<xsl:value-of select="CategoryName"/>
+														</div>
+													</xsl:for-each>
 												</div>
 											</div>
+											<xsl:variable name="firstcategoryID" select="Categories/Category[1]/CategoryID" />
+											<xsl:variable name="firstcategoryName" select="Categories/Category[1]/CategoryName" />
+											<xsl:variable name="firstMostBorrowedBook">
+												<xsl:for-each select="/Library/Books/Book[CategoryID = $firstcategoryID]">
+													<xsl:sort select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = BookID])" order="descending"/>
+													<xsl:if test="position() = 1">
+														<xsl:value-of select="Title"/>
+													</xsl:if>
+												</xsl:for-each>
+											</xsl:variable>
 											<div class="col-lg-12">
 												<ul class="nacc">
 													<li class="active">
@@ -237,215 +245,78 @@
 																<div class="row">
 																	<div class="col-lg-6 align-self-center">
 																		<div class="left-text">
-																			<h4>SEO Analysis &amp; Daily Reports</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
+																			<h4>
+																				<xsl:value-of select="$firstMostBorrowedBook"/>
+																			</h4>
 																			<div class="ticks-list">
 																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
+																					<xsl:value-of select="$firstcategoryName" />
 																				</span>
 																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
+																			<p>
+																				Số lần được mượn nhiều nhất: <xsl:value-of select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = BookID])"/>
+																			</p>
 																		</div>
 																	</div>
 																	<div class="col-lg-6 align-self-center">
 																		<div class="right-image">
-																			<img src="assets/images/services-image.jpg" alt=""/>
+																			<img src="assets/images/portfolio-03.jpg" alt="Book Image" />
 																		</div>
 																	</div>
 																</div>
 															</div>
 														</div>
 													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Healthy Food &amp; Life</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
+													<xsl:for-each select="Categories/Category[position() > 1]">
+														<xsl:variable name="categoryID" select="CategoryID" />
+														<xsl:variable name="categoryName" select="CategoryName" />
+														<xsl:variable name="booksInCategory" select="/Library/Books/Book[CategoryID = $categoryID]" />
+														<xsl:choose>
+															<xsl:when test="count($booksInCategory) > 0">
+																<xsl:variable name="mostBorrowedBook">
+																	<xsl:for-each select="/Library/Books/Book[CategoryID = $categoryID]">
+																		<xsl:sort select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = current()/BookID])" order="descending" />
+																		<xsl:if test="position() = 1">
+																			<xsl:value-of select="Title"/>
+																		</xsl:if>
+																	</xsl:for-each>
+																</xsl:variable>
+																<li>
+																	<div>
+																		<div class="thumb">
+																			<div class="row">
+																				<div class="col-lg-6 align-self-center">
+																					<div class="left-text">
+																						<h4>
+																							<xsl:value-of select="$mostBorrowedBook" />
+																						</h4>
+																						<div class="ticks-list">
+																							<span>
+																								<xsl:value-of select="$categoryName" />
+																							</span>
+																						</div>
+																						<p>
+																							Số lần được mượn nhiều nhất:
+																							<xsl:value-of select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = BookID])" />
+																						</p>
+																					</div>
+																				</div>
+																				<div class="col-lg-6 align-self-center">
+																					<div class="right-image">
+																						<img src="assets/images/portfolio-03.jpg" alt="Book Image" />
+																					</div>
+																				</div>
 																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
 																		</div>
 																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image-02.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Car Re-search &amp; Transport</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
-																		</div>
-																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image-03.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Online Shopping &amp; Tracking ID</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
-																		</div>
-																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image-04.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-													<li>
-														<div>
-															<div class="thumb">
-																<div class="row">
-																	<div class="col-lg-6 align-self-center">
-																		<div class="left-text">
-																			<h4>Enjoy &amp; Travel</h4>
-																			<p>
-																				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt ut labore et dolore kengan darwin doerski token.
-																				dover lipsum lorem and the others.
-																			</p>
-																			<div class="ticks-list">
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Data Info
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> SEO Analysis
-																				</span>
-																				<span>
-																					<i class="fa fa-check"></i> Optimized Template
-																				</span>
-																			</div>
-																			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedr do eiusmod deis tempor incididunt.</p>
-																		</div>
-																	</div>
-																	<div class="col-lg-6 align-self-center">
-																		<div class="right-image">
-																			<img src="assets/images/services-image.jpg" alt=""/>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
+																</li>
+															</xsl:when>
+															<xsl:otherwise>
+																<li>Chưa có sách đã mượn.</li>
+															</xsl:otherwise>
+														</xsl:choose>
+													</xsl:for-each>
+
 												</ul>
 											</div>
 										</div>
@@ -455,7 +326,6 @@
 						</div>
 					</div>
 				</div>
-
 
 				<div id="free-quote" class="free-quote">
 					<div class="container">
@@ -498,9 +368,9 @@
 						<div class="row">
 							<div class="col-lg-5">
 								<div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-									<h6>Our Portofolio</h6>
+									<h6>SÁCH CỦA THƯ VIỆN</h6>
 									<h4>
-										See Our Recent <em>Projects</em>
+										Xem tổng quát <em>SÁCH</em>
 									</h4>
 									<div class="line-dec"></div>
 								</div>
@@ -511,167 +381,110 @@
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="loop owl-carousel">
-									<div class="item">
-										<a href="#">
-											<div class="portfolio-item">
-												<div class="thumb">
-													<img src="assets/images/portfolio-01.jpg" alt=""/>
+									<xsl:for-each select="Books/Book">
+										<div class="item">
+											<a href="#">
+												<div class="portfolio-item">
+													<div class="thumb">
+														<img src="assets/images/portfolio-01.jpg" alt=""/>
+													</div>
+													<div class="down-content">
+														<h4>
+															<xsl:value-of select="Title"/>
+														</h4>
+														<span>
+															Năm xuất bản: <xsl:value-of select="PublishedYear"/>
+														</span>
+													</div>
 												</div>
-												<div class="down-content">
-													<h4>Website Builder</h4>
-													<span>Marketing</span>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="item">
-										<a href="#">
-											<div class="portfolio-item">
-												<div class="thumb">
-													<img src="assets/images/portfolio-01.jpg" alt=""/>
-												</div>
-												<div class="down-content">
-													<h4>Website Builder</h4>
-													<span>Marketing</span>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="item">
-										<a href="#">
-											<div class="portfolio-item">
-												<div class="thumb">
-													<img src="assets/images/portfolio-02.jpg" alt=""/>
-												</div>
-												<div class="down-content">
-													<h4>Website Builder</h4>
-													<span>Marketing</span>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="item">
-										<a href="#">
-											<div class="portfolio-item">
-												<div class="thumb">
-													<img src="assets/images/portfolio-03.jpg" alt=""/>
-												</div>
-												<div class="down-content">
-													<h4>Website Builder</h4>
-													<span>Marketing</span>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="item">
-										<a href="#">
-											<div class="portfolio-item">
-												<div class="thumb">
-													<img src="assets/images/portfolio-04.jpg" alt=""/>
-												</div>
-												<div class="down-content">
-													<h4>Website Builder</h4>
-													<span>Marketing</span>
-												</div>
-											</div>
-										</a>
-									</div>
+											</a>
+										</div>
+									</xsl:for-each>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div id="blog" class="blog">
+				<!-- Start Tác giả -->
+				<div id="blog" class="services section">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-4 offset-lg-4  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-								<div class="section-heading">
-									<h6>Recent News</h6>
+							<div class="col-lg-12">
+								<div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+									<h6>Tác giả</h6>
 									<h4>
-										Check Our Blog <em>Posts</em>
+										Giới thiệu <em>TÁC GIẢ</em>
 									</h4>
 									<div class="line-dec"></div>
 								</div>
 							</div>
-							<div class="col-lg-6 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-								<div class="blog-post">
-									<div class="thumb">
-										<a href="#">
-											<img src="assets/images/blog-post-01.jpg" alt=""/>
-										</a>
-									</div>
-									<div class="down-content">
-										<span class="category">SEO Analysis</span>
-										<span class="date">03 August 2021</span>
-										<a href="#">
-											<h4>
-												Lorem Ipsum Dolor Sit Amet, Consectetur Adelore
-												Eiusmod Tempor Incididunt
-											</h4>
-										</a>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers itii eiumod deis tempor incididunt ut labore.</p>
-										<span class="author">
-											<img src="assets/images/author-post.jpg" alt=""/>By: Andrea Mentuzi
-										</span>
-										<div class="border-first-button">
-											<a href="#">Discover More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-								<div class="blog-posts">
-									<div class="row">
-										<div class="col-lg-12">
-											<div class="post-item">
-												<div class="thumb">
-													<a href="#">
-														<img src="assets/images/blog-post-02.jpg" alt=""/>
-													</a>
-												</div>
-												<div class="right-content">
-													<span class="category">SEO Analysis</span>
-													<span class="date">24 September 2021</span>
-													<a href="#">
-														<h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4>
-													</a>
-													<p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
+							<div class="col-lg-12">
+								<div class="naccs">
+									<div class="grid">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="menu">
+													<div class="first-thumb">
+														<div class="thumb">
+															<span class="icon">
+																<img src="assets/images/author-post.jpg" alt="Category Icon"/>
+															</span>
+															<xsl:value-of select="Authors/Author[1]/AuthorName"/>
+														</div>
+													</div>
+													<xsl:for-each select="Authors/Author[position() > 1]">
+														<div class="thumb">
+															<span class="icon">
+																<img src="assets/images/author-post.jpg" alt="Category Icon"/>
+															</span>
+															<xsl:value-of select="AuthorName"/>
+														</div>
+													</xsl:for-each>
 												</div>
 											</div>
-										</div>
-										<div class="col-lg-12">
-											<div class="post-item">
-												<div class="thumb">
-													<a href="#">
-														<img src="assets/images/blog-post-03.jpg" alt=""/>
-													</a>
-												</div>
-												<div class="right-content">
-													<span class="category">SEO Analysis</span>
-													<span class="date">24 September 2021</span>
-													<a href="#">
-														<h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4>
-													</a>
-													<p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-lg-12">
-											<div class="post-item last-post-item">
-												<div class="thumb">
-													<a href="#">
-														<img src="assets/images/blog-post-04.jpg" alt=""/>
-													</a>
-												</div>
-												<div class="right-content">
-													<span class="category">SEO Analysis</span>
-													<span class="date">24 September 2021</span>
-													<a href="#">
-														<h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4>
-													</a>
-													<p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
-												</div>
+
+											<div class="col-lg-12">
+												<ul class="nacc">
+													<xsl:for-each select="Authors/Author">
+														<li>
+															<div>
+																<div class="thumb">
+																	<div class="row">
+																		<div class="col-lg-6 align-self-center">
+																			<div class="left-text">
+																				<h4>
+																					<xsl:value-of select="AuthorName" />
+																				</h4>
+																				<div class="ticks-list">
+																					<span>
+																						Xin chào, tôi là <xsl:value-of select="AuthorName" />. Là người đam mê viết truyện, tôi luôn cố gắng sáng tạo nên những câu chuyện cuốn hút, giàu trí tưởng tượng và sâu sắc. Mỗi tác phẩm của tôi là một nỗ lực để kết nối cảm xúc và đưa độc giả đến những miền không gian mới mẻ.
+																					</span>
+																				</div>
+																				<p>
+																					<ul>
+																						<xsl:for-each select="BookAuthors/BookAuthor[AuthorID = current()/AuthorID]">
+																							<xsl:for-each select="Books/Book[BookID = current()/BookID]">
+																								<li>
+																									<xsl:value-of select="Title" />
+																								</li>
+																							</xsl:for-each>
+																						</xsl:for-each>
+																					</ul>
+																				</p>
+																			</div>
+																		</div>
+																		<div class="col-lg-6 align-self-center">
+																			<div class="right-image">
+																				<img src="assets/images/author-post.jpg" alt="Book Image" />
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+													</xsl:for-each>													
+												</ul>
 											</div>
 										</div>
 									</div>
@@ -680,6 +493,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- End Tác giả -->
 
 				<div id="contact" class="contact-us section">
 					<div class="container">
