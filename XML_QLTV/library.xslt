@@ -37,7 +37,7 @@
 									<!-- ***** Menu Start ***** -->
 									<ul class="nav">
 										<li class="scroll-to-section">
-											<a href="#top" class="active">Trang chủ</a>
+											<a href="#top" class="active">HOME HOME</a>
 										</li>
 										<li class="scroll-to-section">
 											<a href="#about">Về chúng tôi</a>

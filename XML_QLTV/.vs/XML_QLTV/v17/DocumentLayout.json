@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\XML_QUANLITHUVIEN\\XML_QLTV\\",
   "Documents": [
     {
@@ -25,6 +26,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\XML_QUANLITHUVIEN\\XML_QLTV\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+=======
+  "WorkspaceRootPath": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_QuanLyThuVien\\XML_QUANLITHUVIEN\\XML_QLTV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\programming exercises\\nam 124 - sv 3\\cnxml\\baocao cuoiki\\code_quanlythuvien\\xml_quanlithuvien\\xml_qltv\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+>>>>>>> origin/develop
     }
   ],
   "DocumentGroupContainers": [
@@ -34,6 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -133,6 +142,21 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABVAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-12-03T06:24:48.49Z",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDashBoard.aspx",
+              "DocumentMoniker": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_QuanLyThuVien\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
+              "RelativeDocumentMoniker": "AdminDashBoard.aspx",
+              "ToolTip": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_QuanLyThuVien\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
+              "RelativeToolTip": "AdminDashBoard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-02T02:39:28.078Z",
+>>>>>>> origin/develop
               "EditorCaption": ""
             }
           ]
