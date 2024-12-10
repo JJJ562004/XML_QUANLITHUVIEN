@@ -181,4 +181,48 @@
 			<ReturnDate>2023-10-01</ReturnDate>
 		</BorrowingRecord>
 	</BorrowingRecords>
+	<Authors>
+		<Author>
+			<AuthorID>1</AuthorID>
+			<AuthorName>Nguyễn Nhật Ánh</AuthorName>
+		</Author>
+		<Author>
+			<AuthorID>2</AuthorID>
+			<AuthorName>J.K. Rowling</AuthorName>
+		</Author>
+		<Author>
+			<AuthorID>3</AuthorID>
+			<AuthorName>Nguyễn Du</AuthorName>
+		</Author>
+		<Author>
+			<AuthorID>4</AuthorID>
+			<AuthorName>Victor Hugo</AuthorName>
+		</Author>
+		<Author>
+			<AuthorID>5</AuthorID>
+			<AuthorName>Kim Dung</AuthorName>
+		</Author>
+	</Authors>
+	<BookAuthors>
+		<BookAuthor>
+			<BookID>1</BookID>
+			<AuthorID>1</AuthorID>
+		</BookAuthor>
+		<BookAuthor>
+			<BookID>2</BookID>
+			<AuthorID>2</AuthorID>
+		</BookAuthor>
+		<BookAuthor>
+			<BookID>3</BookID>
+			<AuthorID>4</AuthorID>
+		</BookAuthor>
+		<BookAuthor>
+			<BookID>4</BookID>
+			<AuthorID>5</AuthorID>
+		</BookAuthor>
+		<BookAuthor>
+			<BookID>5</BookID>
+			<AuthorID>5</AuthorID>
+		</BookAuthor>
+	</BookAuthors>
 </Library>
