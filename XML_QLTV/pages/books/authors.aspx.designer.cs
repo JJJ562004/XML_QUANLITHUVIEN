@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace XML_QLTV.pages.books
+namespace XML_QLTV
 {
 
 
-    public partial class authors
+    public partial class AdminDashBoard
     {
     }
 }
