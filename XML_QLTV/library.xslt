@@ -37,7 +37,7 @@
 									<!-- ***** Menu Start ***** -->
 									<ul class="nav">
 										<li class="scroll-to-section">
-											<a href="#top" class="active">HOME HOME</a>
+											<a href="#top" class="active">Trang chủ</a>
 										</li>
 										<li class="scroll-to-section">
 											<a href="#about">Về chúng tôi</a>
@@ -53,11 +53,6 @@
 										</li>
 										<li class="scroll-to-section">
 											<a href="#contact">Liên hệ</a>
-										</li>
-										<li class="scroll-to-section">
-											<div class="border-first-button">
-												<a href="#contact">Tìm kiếm</a>
-											</div>
 										</li>
 									</ul>
 									<a class='menu-trigger'>
@@ -79,13 +74,17 @@
 										<div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
 											<div class="row">
 												<div class="col-lg-12">
-													<h6>Digital Media Agency</h6>
-													<h2>We Boost Your Website Traffic</h2>
-													<p>This template is brought to you by TemplateMo website. Feel free to use this for a commercial purpose. You are not allowed to redistribute the template ZIP file on any other template website. Thank you.</p>
+													<h6>DigiMedia</h6>
+													<h2>
+														Hệ Thống Mượn Sách Thư Viện
+													</h2>
+													<p>
+														Hệ thống này giúp bạn đơn giản hóa việc mượn sách từ thư viện. Hãy thoải mái sử dụng nền tảng để tìm kiếm, đặt trước và quản lý các lượt mượn sách của bạn một cách tiện lợi. Lưu ý, việc phân phối lại mã nguồn hoặc tài nguyên của hệ thống này mà không được phép là không hợp lệ. Cảm ơn bạn đã sử dụng hệ thống quản lý thư viện của chúng tôi.
+													</p>
 												</div>
 												<div class="col-lg-12">
 													<div class="border-first-button scroll-to-section">
-														<a href="#contact">Free Quote</a>
+														<a href="#contact">Liên hệ</a>
 													</div>
 												</div>
 											</div>
@@ -117,12 +116,13 @@
 											<div class="section-heading">
 												<h6>Về chúng tôi</h6>
 												<h4>
-													Who is DigiMedia <em>Agency</em>
+													<em>DigiMedia</em> là gì
 												</h4>
 												<div class="line-dec"></div>
 											</div>
 											<p>
-												We hope this DigiMedia template is useful for your work. You can use this template for any purpose. You may <a rel="nofollow" href="http://paypal.me/templatemo" target="_blank">contribute a little amount</a> via PayPal to <a href="https://templatemo.com/contact" target="_blank">support TemplateMo</a> in creating new templates regularly.
+												Chúng tôi hy vọng hệ thống quản lý mượn sách này sẽ hữu ích cho công việc của bạn.
+
 											</p>
 											<div class="row">
 												<div class="col-lg-4 col-sm-4">
@@ -137,7 +137,7 @@
 															<div class="progress-value">
 																<div>
 																	90%<br>
-																		<span>Coding</span>
+																		<span>Uy tín</span>
 																	</br>
 																</div>
 															</div>
@@ -156,7 +156,7 @@
 															<div class="progress-value">
 																<div>
 																	80%<br>
-																		<span>Photoshop</span>
+																		<span>Chất lượng</span>
 																	</br>
 																</div>
 															</div>
@@ -175,7 +175,7 @@
 															<div class="progress-value">
 																<div>
 																	80%<br>
-																		<span>Animation</span>
+																		<span>Đa dạng</span>
 																	</br>
 																</div>
 															</div>
@@ -236,7 +236,7 @@
 														<xsl:value-of select="Title"/>
 													</xsl:if>
 												</xsl:for-each>
-											</xsl:variable>
+											</xsl:variable>										
 											<div class="col-lg-12">
 												<ul class="nacc">
 													<li class="active">
@@ -260,12 +260,46 @@
 																	</div>
 																	<div class="col-lg-6 align-self-center">
 																		<div class="right-image">
-																			<img src="assets/images/portfolio-03.jpg" alt="Book Image" />
+																			<xsl:for-each select="/Library/Books/Book[CategoryID = $firstcategoryID]">
+																				<xsl:sort select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = current()/BookID])" order="descending"/>
+																				<xsl:if test="position() = 1">
+																					<img src="{ImageURL}" alt="Book Image" />
+																				</xsl:if>
+																			</xsl:for-each>
 																		</div>
 																	</div>
 																</div>
 															</div>
 														</div>
+														<div>														
+																<div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+																		<div class="row">
+																			<div class="col-lg-12">
+																				<div class="loop owl-carousel">
+																					<xsl:for-each select="/Library/Books/Book[CategoryID = $firstcategoryID]">
+																						<div class="item">
+																							<a href="book-detail.aspx?id={BookID}">
+																								<div class="portfolio-item">
+																									<div class="thumb">
+																										<img src="{ImageURL}" alt="{Title}" />
+																									</div>
+																									<div class="down-content">
+																										<h4>
+																											<xsl:value-of select="Title" />
+																										</h4>
+																										<span>
+																											Năm xuất bản: <xsl:value-of select="PublishedYear" />
+																										</span>
+																									</div>
+																								</div>
+																							</a>
+																						</div>
+																					</xsl:for-each>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
 													</li>
 													<xsl:for-each select="Categories/Category[position() > 1]">
 														<xsl:variable name="categoryID" select="CategoryID" />
@@ -325,42 +359,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div id="free-quote" class="free-quote">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4 offset-lg-4">
-								<div class="section-heading  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-									<h6>Get Your Free Quote</h6>
-									<h4>Grow With Us Now</h4>
-									<div class="line-dec"></div>
-								</div>
-							</div>
-							<div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-								<form id="search" action="#" method="GET">
-									<div class="row">
-										<div class="col-lg-4 col-sm-4">
-											<fieldset>
-												<input type="web" name="web" class="website" placeholder="Your website URL..." autocomplete="on" required=""/>
-											</fieldset>
-										</div>
-										<div class="col-lg-4 col-sm-4">
-											<fieldset>
-												<input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required=""/>
-											</fieldset>
-										</div>
-										<div class="col-lg-4 col-sm-4">
-											<fieldset>
-												<button type="submit" class="main-button">Get Quote Now</button>
-											</fieldset>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
+				</div>			
 
 
 				<div id="portfolio" class="our-portfolio section">
@@ -383,17 +382,17 @@
 								<div class="loop owl-carousel">
 									<xsl:for-each select="Books/Book">
 										<div class="item">
-											<a href="#">
+											<a href="book-detail.aspx?id={BookID}">
 												<div class="portfolio-item">
 													<div class="thumb">
-														<img src="assets/images/portfolio-01.jpg" alt=""/>
+														<img src="{ImageURL}" alt="{Title}" />
 													</div>
 													<div class="down-content">
 														<h4>
-															<xsl:value-of select="Title"/>
+															<xsl:value-of select="Title" />
 														</h4>
 														<span>
-															Năm xuất bản: <xsl:value-of select="PublishedYear"/>
+															Năm xuất bản: <xsl:value-of select="PublishedYear" />
 														</span>
 													</div>
 												</div>
@@ -460,18 +459,7 @@
 																					<span>
 																						Xin chào, tôi là <xsl:value-of select="AuthorName" />. Là người đam mê viết truyện, tôi luôn cố gắng sáng tạo nên những câu chuyện cuốn hút, giàu trí tưởng tượng và sâu sắc. Mỗi tác phẩm của tôi là một nỗ lực để kết nối cảm xúc và đưa độc giả đến những miền không gian mới mẻ.
 																					</span>
-																				</div>
-																				<p>
-																					<ul>
-																						<xsl:for-each select="BookAuthors/BookAuthor[AuthorID = current()/AuthorID]">
-																							<xsl:for-each select="Books/Book[BookID = current()/BookID]">
-																								<li>
-																									<xsl:value-of select="Title" />
-																								</li>
-																							</xsl:for-each>
-																						</xsl:for-each>
-																					</ul>
-																				</p>
+																				</div>																				
 																			</div>
 																		</div>
 																		<div class="col-lg-6 align-self-center">

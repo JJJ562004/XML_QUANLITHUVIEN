@@ -28,6 +28,7 @@
 			<PublisherAddress>Số 25 Nguyễn Trãi, Hà Nội</PublisherAddress>
 		</Publisher>
 	</Publishers>
+
 	<Categories>
 		<Category>
 			<CategoryID>1</CategoryID>
@@ -50,6 +51,7 @@
 			<CategoryName>Khoa học viễn tưởng</CategoryName>
 		</Category>
 	</Categories>
+
 	<Students>
 		<Student>
 			<StudentID>1</StudentID>
@@ -97,6 +99,7 @@
 			<EnrollmentDate>2023-07-15</EnrollmentDate>
 		</Student>
 	</Students>
+
 	<Books>
 		<Book>
 			<BookID>1</BookID>
@@ -104,7 +107,9 @@
 			<PublisherID>2</PublisherID>
 			<CategoryID>1</CategoryID>
 			<PublishedYear>2010</PublishedYear>
-			<Quantity>10</Quantity>
+			<Quantity>10</Quantity>			
+			<Description>A poignant coming-of-age story that captures the innocence and beauty of childhood in a small Vietnamese village, exploring themes of friendship, love, and the simple joys of growing up.</Description>
+			<ImageURL>https://i.ibb.co/17BqG8V/123asd.jpg</ImageURL>
 		</Book>
 		<Book>
 			<BookID>2</BookID>
@@ -113,6 +118,8 @@
 			<CategoryID>5</CategoryID>
 			<PublishedYear>1997</PublishedYear>
 			<Quantity>15</Quantity>
+			<Description>The magical first installment of the beloved series, introducing young Harry Potter as he discovers his wizarding heritage and begins his extraordinary journey at Hogwarts School of Witchcraft and Wizardry.</Description>
+			<ImageURL>https://i.ibb.co/17BqG8V/123asd.jpg</ImageURL>
 		</Book>
 		<Book>
 			<BookID>3</BookID>
@@ -121,6 +128,8 @@
 			<CategoryID>1</CategoryID>
 			<PublishedYear>1862</PublishedYear>
 			<Quantity>12</Quantity>
+			<Description>Victor Hugo's epic novel of redemption and social injustice, following the life of Jean Valjean as he struggles against personal demons and the rigid social systems of 19th-century France.</Description>
+			<ImageURL>https://i.ibb.co/HGGQS7j/1112.jpg</ImageURL>
 		</Book>
 		<Book>
 			<BookID>4</BookID>
@@ -129,6 +138,8 @@
 			<CategoryID>1</CategoryID>
 			<PublishedYear>1959</PublishedYear>
 			<Quantity>8</Quantity>
+			<Description>A classic martial arts novel by Jin Yong, weaving an intricate tale of love, honor, and adventure in the world of Chinese wuxia literature, following the journey of extraordinary warriors.</Description>
+			<ImageURL>https://i.ibb.co/17BqG8V/123asd.jpg</ImageURL>
 		</Book>
 		<Book>
 			<BookID>5</BookID>
@@ -137,8 +148,11 @@
 			<CategoryID>4</CategoryID>
 			<PublishedYear>2002</PublishedYear>
 			<Quantity>20</Quantity>
+			<Description>The first volume of the beloved manga series featuring Doraemon, a robotic cat from the future who helps young Nobita navigate life's challenges with his magical gadgets and endless friendship.</Description>	
+			<ImageURL>https://i.ibb.co/HGGQS7j/1112.jpg</ImageURL>
 		</Book>
 	</Books>
+
 	<BorrowingRecords>
 		<BorrowingRecord>
 			<BorrowID>1</BorrowID>
@@ -181,6 +195,7 @@
 			<ReturnDate>2023-10-01</ReturnDate>
 		</BorrowingRecord>
 	</BorrowingRecords>
+
 	<Authors>
 		<Author>
 			<AuthorID>1</AuthorID>
@@ -203,6 +218,7 @@
 			<AuthorName>Kim Dung</AuthorName>
 		</Author>
 	</Authors>
+
 	<BookAuthors>
 		<BookAuthor>
 			<BookID>1</BookID>

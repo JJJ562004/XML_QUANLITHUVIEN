@@ -1,239 +1,129 @@
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\XML_QLTV.dll.config
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\XML_QLTV.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\XML_QLTV.pdb
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\csc.exe
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\csc.exe.config
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\csc.rsp
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\csi.exe
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\csi.exe.config
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\csi.rsp
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.AppContext.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Console.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.IO.Compression.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Net.Http.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Net.Sockets.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.ValueTuple.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Xml.XPath.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\vbc.exe
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\vbc.exe.config
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\vbc.rsp
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\VBCSCompiler.exe
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\obj\Debug\XML_QLTV.csproj.AssemblyReference.cache
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\obj\Debug\XML_QLTV.csproj.CoreCompileInputs.cache
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\obj\Debug\XML_QLTV.csproj.Up2Date
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\obj\Debug\XML_QLTV.dll
-C:\Users\darkn\Documents\BaiTapNam\XML_QLTV\obj\Debug\XML_QLTV.pdb
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\obj\Debug\XML_QLTV.csproj.AssemblyReference.cache
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\obj\Debug\XML_QLTV.csproj.CoreCompileInputs.cache
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\obj\Debug\XML_QLTV.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\obj\Debug\XML_QLTV.pdb
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\XML_QLTV.dll.config
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\XML_QLTV.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\XML_QLTV.pdb
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\csc.exe
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\csc.exe.config
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\csc.rsp
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\csi.exe
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\csi.exe.config
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\csi.rsp
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.AppContext.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Console.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.IO.Compression.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Net.Http.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Net.Sockets.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.ValueTuple.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Xml.XPath.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\vbc.exe
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\vbc.exe.config
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\vbc.rsp
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\VBCSCompiler.exe
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\darkn\Documents\BaiTapQuan\XML_QLTV\obj\Debug\XML_QLTV.csproj.Up2Date
-<<<<<<< HEAD
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.dll.config
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.pdb
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.exe
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.exe.config
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.rsp
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.exe
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.exe.config
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.rsp
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Managed.Core.targets
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.AppContext.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Collections.Immutable.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Console.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Globalization.Calendars.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.Compression.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.FileSystem.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Net.Http.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Net.Sockets.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Reflection.Metadata.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.ValueTuple.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XmlDocument.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XPath.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.exe
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.exe.config
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.rsp
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\VBCSCompiler.exe
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\VBCSCompiler.exe.config
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.AssemblyReference.cache
-C:\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.CoreCompileInputs.cache
-C:\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.Up2Date
-C:\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.dll
-C:\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.pdb
-=======
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.dll.config
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.pdb
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.exe
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.exe.config
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.rsp
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.exe
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.exe.config
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.rsp
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Managed.Core.targets
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.AppContext.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Collections.Immutable.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Console.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Globalization.Calendars.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.Compression.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.FileSystem.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Net.Http.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Net.Sockets.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Reflection.Metadata.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.ValueTuple.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XmlDocument.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XPath.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.exe
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.exe.config
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.rsp
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\VBCSCompiler.exe
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\VBCSCompiler.exe.config
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.AssemblyReference.cache
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.CoreCompileInputs.cache
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.Up2Date
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.dll
-D:\Programming Exercises\Nam 124 - SV 3\CNXML\BaoCao CuoiKi\Code_QuanLyThuVien\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.pdb
->>>>>>> origin/develop
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.dll.config
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\XML_QLTV.pdb
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.exe
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.exe.config
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csc.rsp
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.exe
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.exe.config
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\csi.rsp
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.AppContext.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Collections.Immutable.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Console.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Globalization.Calendars.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.Compression.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.FileSystem.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Net.Http.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Net.Sockets.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.ValueTuple.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XPath.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.exe
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.exe.config
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\vbc.rsp
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\VBCSCompiler.exe
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\roslyn\VBCSCompiler.exe.config
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.AssemblyReference.cache
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.CoreCompileInputs.cache
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.csproj.Up2Date
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\obj\Debug\XML_QLTV.pdb
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Azure.Core.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Azure.Identity.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Data.SqlClient.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Identity.Client.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Logging.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Buffers.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.ClientModel.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Configuration.ConfigurationManager.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.IO.FileSystem.AccessControl.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Memory.Data.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Memory.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Numerics.Vectors.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.AccessControl.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.Permissions.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.Principal.Windows.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Text.Encodings.Web.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Text.Json.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Threading.Tasks.Extensions.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.ValueTuple.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Azure.Core.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Azure.Identity.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Data.SqlClient.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Identity.Client.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Logging.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Buffers.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.ClientModel.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Configuration.ConfigurationManager.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.IO.FileSystem.AccessControl.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Memory.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Memory.Data.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Numerics.Vectors.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.AccessControl.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.Cryptography.ProtectedData.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.Permissions.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Security.Principal.Windows.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Text.Encodings.Web.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Text.Json.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.Threading.Tasks.Extensions.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\System.ValueTuple.xml
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Temp\XML_QUANLITHUVIEN\XML_QLTV\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
