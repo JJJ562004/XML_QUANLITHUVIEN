@@ -155,6 +155,15 @@
                                             <div class="text-center px-xl-3">
                                                 <button class="btn btn-success btn-block" type="button" data-toggle="modal" data-target="#user-form-modal">Thêm tác giả</button>
                                             </div>
+                                            <br />
+                                            <div class="text-center px-xl-3">
+                                                <asp:Button
+                                                    runat="server"
+                                                    Text="Xoá tác giả"
+                                                    CssClass="btn btn-danger"
+                                                    OnClick="DeleteSelectedAuthors_Click"
+                                                    OnClientClick="return confirm('Bạn muốn xoá những tác giả đã chọn?');" />
+                                            </div>
                                             <hr class="my-3">
                                             <div class="e-navlist e-navlist--active-bold">
                                                 <ul class="nav">
@@ -196,25 +205,25 @@
                                         </div>
                                         <div class="modal-body">
                                             <div class="py-1">
-                                               
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <div class="form-group">
-                                                                <label>Họ và tên</label>
-                                                                <input class="form-control" type="text" name="name" id="authorName" placeholder="Nguyễn Văn A" required />
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label>Ngày sinh</label>
-                                                                <input class="form-control" type="date" name="birthday" id="authorBirthday" required />
-                                                            </div>
+
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label>Họ và tên</label>
+                                                            <input class="form-control" type="text" name="name" id="authorName" placeholder="Nguyễn Văn A"/>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Ngày sinh</label>
+                                                            <input class="form-control" type="date" name="birthday" id="authorBirthday"/>
                                                         </div>
                                                     </div>
-                                                    <div class="row">
-                                                        <div class="col d-flex justify-content-end">
-                                                            <button class="btn btn-primary" type="submit" runat="server" onserverclick="AddAuthor_Click">Thêm tác giả</button>
-                                                        </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col d-flex justify-content-end">
+                                                        <button class="btn btn-primary" type="submit" runat="server" onserverclick="AddAuthor_Click">Thêm tác giả</button>
                                                     </div>
-                                                
+                                                </div>
+
 
                                             </div>
                                         </div>

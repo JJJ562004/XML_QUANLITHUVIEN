@@ -60,12 +60,4 @@
     <AuthorID>11</AuthorID>
     <AuthorName>hieupt15_test</AuthorName>
   </Author>
-  <Author>
-    <AuthorID>12</AuthorID>
-    <AuthorName>hn</AuthorName>
-  </Author>
-  <Author>
-    <AuthorID>13</AuthorID>
-    <AuthorName>hieupt15</AuthorName>
-  </Author>
 </NewDataSet>

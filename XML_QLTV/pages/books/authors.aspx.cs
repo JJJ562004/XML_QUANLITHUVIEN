@@ -15,7 +15,6 @@ namespace XML_QLTV.pages.books
             xmlHandler = new TaoXML();
             if (!IsPostBack)
             {
-                Create_authors_xml();
                 LoadAuthors();
             }
 
@@ -66,6 +65,7 @@ namespace XML_QLTV.pages.books
 
         private void LoadAuthors()
         {
+            Create_authors_xml();
             Random random = new Random();
             try
             {
@@ -93,7 +93,7 @@ namespace XML_QLTV.pages.books
                         <td class='text-center align-middle'>
                             <div class='btn-group align-top'>
                                 <button class='btn btn-sm btn-outline-secondary badge' type='button' data-toggle='modal' data-target='#user-form-modal'>Edit</button>
-                                <button class='btn btn-sm btn-outline-secondary badge' type='button'><i class='fa fa-trash'></i></button>
+                                <input type='checkbox' name='deleteCheckbox' value='{row["AuthorID"]}' />
                             </div>
                         </td>
                     </tr>";
@@ -107,6 +107,54 @@ namespace XML_QLTV.pages.books
                 Response.Write($"<script>alert('{HttpUtility.HtmlEncode(ex.Message)}')</script>");
             }
         }
+
+        protected void DeleteSelectedAuthors_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Get selected AuthorIDs from Request.Form
+                string[] selectedAuthorIDs = Request.Form.GetValues("deleteCheckbox");
+
+                if (selectedAuthorIDs != null && selectedAuthorIDs.Length > 0)
+                {
+                    foreach (string authorId in selectedAuthorIDs)
+                    {
+                        // Delete each selected author from the database
+                        DeleteAuthorFromDatabase(authorId);
+                    }
+                }
+                else
+                {
+                    Response.Write("<script>alert('No authors selected for deletion.')</script>");
+                }
+
+                // Reload the authors table
+                LoadAuthors();
+            }
+            catch (Exception ex)
+            {
+                // Handle errors
+                Response.Write($"<script>alert('Error: {HttpUtility.HtmlEncode(ex.Message)}')</script>");
+            }
+        }
+
+        private void DeleteAuthorFromDatabase(string authorId)
+        {
+            string connectionString = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;Encrypt=False;trustservercertificate=True";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "DELETE FROM Author WHERE AuthorID = @AuthorID";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@AuthorID", authorId);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
 
 
         protected void AddAuthor_Click(object sender, EventArgs e)
