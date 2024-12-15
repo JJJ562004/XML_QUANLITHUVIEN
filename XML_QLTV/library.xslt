@@ -51,9 +51,6 @@
 										<li class="scroll-to-section">
 											<a href="#blog">Tác giả</a>
 										</li>
-										<li class="scroll-to-section">
-											<a href="#contact">Liên hệ</a>
-										</li>
 									</ul>
 									<a class='menu-trigger'>
 										<span>Menu</span>
@@ -84,7 +81,7 @@
 												</div>
 												<div class="col-lg-12">
 													<div class="border-first-button scroll-to-section">
-														<a href="#contact">Liên hệ</a>
+														<a href="#about">Về chúng tôi</a>
 													</div>
 												</div>
 											</div>
@@ -99,97 +96,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div id="about" class="about section">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="row">
-									<div class="col-lg-6">
-										<div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-											<img src="assets/images/about-dec-v3.png" alt=""/>
-										</div>
-									</div>
-									<div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-										<div class="about-right-content">
-											<div class="section-heading">
-												<h6>Về chúng tôi</h6>
-												<h4>
-													<em>DigiMedia</em> là gì
-												</h4>
-												<div class="line-dec"></div>
-											</div>
-											<p>
-												Chúng tôi hy vọng hệ thống quản lý mượn sách này sẽ hữu ích cho công việc của bạn.
-
-											</p>
-											<div class="row">
-												<div class="col-lg-4 col-sm-4">
-													<div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-														<div class="progress" data-percentage="90">
-															<span class="progress-left">
-																<span class="progress-bar"></span>
-															</span>
-															<span class="progress-right">
-																<span class="progress-bar"></span>
-															</span>
-															<div class="progress-value">
-																<div>
-																	90%<br>
-																		<span>Uy tín</span>
-																	</br>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-4 col-sm-4">
-													<div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-														<div class="progress" data-percentage="80">
-															<span class="progress-left">
-																<span class="progress-bar"></span>
-															</span>
-															<span class="progress-right">
-																<span class="progress-bar"></span>
-															</span>
-															<div class="progress-value">
-																<div>
-																	80%<br>
-																		<span>Chất lượng</span>
-																	</br>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="col-lg-4 col-sm-4">
-													<div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-														<div class="progress" data-percentage="80">
-															<span class="progress-left">
-																<span class="progress-bar"></span>
-															</span>
-															<span class="progress-right">
-																<span class="progress-bar"></span>
-															</span>
-															<div class="progress-value">
-																<div>
-																	80%<br>
-																		<span>Đa dạng</span>
-																	</br>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				</div>				
 
 				<div id="services" class="services section">
 					<div class="container">
@@ -236,7 +143,7 @@
 														<xsl:value-of select="Title"/>
 													</xsl:if>
 												</xsl:for-each>
-											</xsl:variable>										
+											</xsl:variable>
 											<div class="col-lg-12">
 												<ul class="nacc">
 													<li class="active">
@@ -271,35 +178,35 @@
 																</div>
 															</div>
 														</div>
-														<div>														
-																<div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-																		<div class="row">
-																			<div class="col-lg-12">
-																				<div class="loop owl-carousel">
-																					<xsl:for-each select="/Library/Books/Book[CategoryID = $firstcategoryID]">
-																						<div class="item">
-																							<a href="book-detail.aspx?id={BookID}">
-																								<div class="portfolio-item">
-																									<div class="thumb">
-																										<img src="{ImageURL}" alt="{Title}" />
-																									</div>
-																									<div class="down-content">
-																										<h4>
-																											<xsl:value-of select="Title" />
-																										</h4>
-																										<span>
-																											Năm xuất bản: <xsl:value-of select="PublishedYear" />
-																										</span>
-																									</div>
-																								</div>
-																							</a>
+														<div>
+															<div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+																<div class="row">
+																	<div class="col-lg-12">
+																		<div class="loop owl-carousel">
+																			<xsl:for-each select="/Library/Books/Book[CategoryID = $firstcategoryID]">
+																				<div class="item">
+																					<a href="book-detail.aspx?id={BookID}">
+																						<div class="portfolio-item">
+																							<div class="thumb">
+																								<img src="{ImageURL}" alt="{Title}" />
+																							</div>
+																							<div class="down-content">
+																								<h4>
+																									<xsl:value-of select="Title" />
+																								</h4>
+																								<span>
+																									Năm xuất bản: <xsl:value-of select="PublishedYear" />
+																								</span>
+																							</div>
 																						</div>
-																					</xsl:for-each>
+																					</a>
 																				</div>
-																			</div>
+																			</xsl:for-each>
 																		</div>
 																	</div>
 																</div>
+															</div>
+														</div>
 													</li>
 													<xsl:for-each select="Categories/Category[position() > 1]">
 														<xsl:variable name="categoryID" select="CategoryID" />
@@ -359,7 +266,7 @@
 							</div>
 						</div>
 					</div>
-				</div>			
+				</div>
 
 
 				<div id="portfolio" class="our-portfolio section">
@@ -459,7 +366,7 @@
 																					<span>
 																						Xin chào, tôi là <xsl:value-of select="AuthorName" />. Là người đam mê viết truyện, tôi luôn cố gắng sáng tạo nên những câu chuyện cuốn hút, giàu trí tưởng tượng và sâu sắc. Mỗi tác phẩm của tôi là một nỗ lực để kết nối cảm xúc và đưa độc giả đến những miền không gian mới mẻ.
 																					</span>
-																				</div>																				
+																				</div>
 																			</div>
 																		</div>
 																		<div class="col-lg-6 align-self-center">
@@ -471,7 +378,7 @@
 																</div>
 															</div>
 														</li>
-													</xsl:for-each>													
+													</xsl:for-each>
 												</ul>
 											</div>
 										</div>
@@ -482,92 +389,335 @@
 					</div>
 				</div>
 				<!-- End Tác giả -->
-
-				<div id="contact" class="contact-us section">
+				
+				<div id="about" class="about section">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-6 offset-lg-3">
-								<div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-									<h6>Contact Us</h6>
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+											<img src="assets/images/about-dec-v3.png" alt=""/>
+										</div>
+									</div>
+									<div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+										<div class="about-right-content">
+											<div class="section-heading">
+												<h6>Về chúng tôi</h6>
+												<h4>
+													<em>DigiMedia</em> là gì
+												</h4>
+												<div class="line-dec"></div>
+											</div>
+											<p>
+												Chúng tôi hy vọng hệ thống quản lý mượn sách này sẽ hữu ích cho công việc của bạn.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="about0" class="services section">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+									<h6>Thành viên nhóm</h6>
 									<h4>
-										Get In Touch With Us <em>Now</em>
+										Dưới đây là <em>thành viên nhóm</em>
 									</h4>
 									<div class="line-dec"></div>
 								</div>
 							</div>
-							<div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-								<form id="contact" action="" method="post">
-									<div class="row">
-										<div class="col-lg-12">
-											<div class="contact-dec">
-												<img src="assets/images/contact-dec-v3.png" alt=""/>
-											</div>
+						</div>
+					</div>
+				</div>
+				<div id="about1" class="about section">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+											<img src="assets/images/tuan.jpg" height="500" alt=""/>
 										</div>
-										<!--
-										<div class="col-lg-5">
-											<div id="map">
-												<iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="636px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+									</div>
+									<div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+										<div class="about-right-content">
+											<div class="section-heading">
+												<h6>Nguyễn Ngọc Tuấn</h6>
+												<div class="line-dec"></div>
 											</div>
-										</div>
-										-->
-										<div class="col-lg-7">
-											<div class="fill-form">
-												<div class="row">
-													<div class="col-lg-4">
-														<div class="info-post">
-															<div class="icon">
-																<img src="assets/images/phone-icon.png" alt=""/>
-																<a href="#">010-020-0340</a>
+											<div class="about-right-content">
+												<div class="section-heading">
+													<h6></h6>
+													<h4>
+														Đóng góp vào <em>DigiMedia</em>
+													</h4>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-4 col-sm-4">
+													<div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+														<div class="progress" data-percentage="100">
+															<span class="progress-left">
+																<span class="progress-bar"></span>
+															</span>
+															<span class="progress-right">
+																<span class="progress-bar"></span>
+															</span>
+															<div class="progress-value">
+																<div>
+																	100%
+																	<h5>Trang người dùng</h5>
+																</div>
 															</div>
 														</div>
 													</div>
-													<div class="col-lg-4">
-														<div class="info-post">
-															<div class="icon">
-																<img src="assets/images/email-icon.png" alt=""/>
-																<a href="#">our@email.com</a>
+												</div>
+												<div class="col-lg-4 col-sm-4">
+													<div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+														<div class="progress" data-percentage="40">
+															<span class="progress-left">
+																<span class="progress-bar"></span>
+															</span>
+															<span class="progress-right">
+																<span class="progress-bar"></span>
+															</span>
+															<div class="progress-value">
+																<div>
+																	40%
+																	<h5>Phân quyền</h5>
+																</div>
 															</div>
 														</div>
 													</div>
-													<div class="col-lg-4">
-														<div class="info-post">
-															<div class="icon">
-																<img src="assets/images/location-icon.png" alt=""/>
-																<a href="#">123 Rio de Janeiro</a>
+												</div>
+												<div class="col-lg-4 col-sm-4">
+													<div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+														<div class="progress" data-percentage="15">
+															<span class="progress-left">
+																<span class="progress-bar"></span>
+															</span>
+															<span class="progress-right">
+																<span class="progress-bar"></span>
+															</span>
+															<div class="progress-value">
+																<div>
+																	20%
+																	<h5>Trang Admins</h5>
+																</div>
 															</div>
 														</div>
-													</div>
-													<div class="col-lg-6">
-														<fieldset>
-															<input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required=""/>
-														</fieldset>
-														<fieldset>
-															<input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required=""/>
-														</fieldset>
-														<fieldset>
-															<input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on"/>
-														</fieldset>
-													</div>
-													<div class="col-lg-6">
-														<fieldset>
-															<textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>
-														</fieldset>
-													</div>
-													<div class="col-lg-12">
-														<fieldset>
-															<button type="submit" id="form-submit" class="main-button ">Send Message Now</button>
-														</fieldset>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-								</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="about0" class="services section">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+										<div class="line-dec"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="about2" class="about section">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+												<img src="assets/images/hieu.jpg" height="500" alt=""/>
+											</div>
+										</div>
+										<div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+											<div class="about-right-content">
+												<div class="section-heading">
+													<h6>Phạm Thanh Hiếu</h6>
+													<div class="line-dec"></div>
+												</div>
+												<div class="about-right-content">
+													<div class="section-heading">
+														<h6></h6>
+														<h4>
+															Đóng góp vào <em>DigiMedia</em>
+														</h4>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-lg-4 col-sm-4">
+														<div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+															<div class="progress" data-percentage="30">
+																<span class="progress-left">
+																	<span class="progress-bar"></span>
+																</span>
+																<span class="progress-right">
+																	<span class="progress-bar"></span>
+																</span>
+																<div class="progress-value">
+																	<div>
+																		30%
+																		<h5>Trang người dùng</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-4 col-sm-4">
+														<div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+															<div class="progress" data-percentage="10">
+																<span class="progress-left">
+																	<span class="progress-bar"></span>
+																</span>
+																<span class="progress-right">
+																	<span class="progress-bar"></span>
+																</span>
+																<div class="progress-value">
+																	<div>
+																		10%
+																		<h5>Phân quyền</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-4 col-sm-4">
+														<div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+															<div class="progress" data-percentage="100">
+																<span class="progress-left">
+																	<span class="progress-bar"></span>
+																</span>
+																<span class="progress-right">
+																	<span class="progress-bar"></span>
+																</span>
+																<div class="progress-value">
+																	<div>
+																		100%
+																		<h5>Trang Admins</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="about0" class="services section">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+										<div class="line-dec"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="about3" class="about section">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="row">
+										<div class="col-lg-6">
+											<div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+												<img src="assets/images/binh.jpg" height="500" alt=""/>
+											</div>
+										</div>
+										<div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+											<div class="about-right-content">
+												<div class="section-heading">
+													<h6>Trần Văn Bình</h6>
+													<div class="line-dec"></div>
+												</div>
+												<div class="about-right-content">
+													<div class="section-heading">
+														<h6></h6>
+														<h4>
+															Đóng góp vào <em>DigiMedia</em>
+														</h4>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-lg-4 col-sm-4">
+														<div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+															<div class="progress" data-percentage="40">
+																<span class="progress-left">
+																	<span class="progress-bar"></span>
+																</span>
+																<span class="progress-right">
+																	<span class="progress-bar"></span>
+																</span>
+																<div class="progress-value">
+																	<div>
+																		40%
+																		<h5>Trang người dùng</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-4 col-sm-4">
+														<div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+															<div class="progress" data-percentage="100">
+																<span class="progress-left">
+																	<span class="progress-bar"></span>
+																</span>
+																<span class="progress-right">
+																	<span class="progress-bar"></span>
+																</span>
+																<div class="progress-value">
+																	<div>
+																		100%
+																		<h5>Phân quyền</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-4 col-sm-4">
+														<div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+															<div class="progress" data-percentage="10">
+																<span class="progress-left">
+																	<span class="progress-bar"></span>
+																</span>
+																<span class="progress-right">
+																	<span class="progress-bar"></span>
+																</span>
+																<div class="progress-value">
+																	<div>
+																		10%
+																		<h5>Trang Admins</h5>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
+				
 				<footer>
 					<div class="container">
 						<div class="row">

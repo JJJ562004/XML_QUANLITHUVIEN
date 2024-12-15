@@ -15,15 +15,6 @@ namespace XML_QLTV
     {
 
         /// <summary>
-        /// bookImage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage bookImage;
-
-        /// <summary>
         /// bookTitle control.
         /// </summary>
         /// <remarks>
@@ -76,5 +67,14 @@ namespace XML_QLTV
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl description;
+
+        /// <summary>
+        /// bookImage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage bookImage;
     }
 }

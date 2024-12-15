@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="book-detail.aspx.cs" Inherits="XML_QLTV.book_detail" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="borrow.aspx.cs" Inherits="XML_QLTV.borrow" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,39 +37,35 @@
         </div>
     </header>
     <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-lg-6 align-self-center">
-                            <div class="left-content show-up header-text wow fadeInLeft animated" data-wow-duration="1s" data-wow-delay="1s" style="visibility: visible; -webkit-animation-duration: 1s; -moz-animation-duration: 1s; animation-duration: 1s; -webkit-animation-delay: 1s; -moz-animation-delay: 1s; animation-delay: 1s;">
+                            <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <h6 id="bookTitle" runat="server"></h6>
-                                        <h2>Nhà sản xuất: <span id="publisherId" runat="server"></span></h2>
-                                        <h2>Thể loại: <span id="categoryId" runat="server"></span></h2>
-                                        <h2>Năm sản xuất: <span id="publishedYear" runat="server"></span></h2>
-                                        <h2>Số lượng: <span id="quantity" runat="server"></span></h2>
-                                        <p id="description" runat="server"></p>
+                                       <asp:Label ID="lblMessage" runat="server" Text="" />
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="border-first-button scroll-to-section">
                                             <a href="library.xml">Quay lại</a>
-                                            <a href="borrow.aspx?id=<%= Request.QueryString["id"] %>">Mượn sách</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="right-image wow fadeInRight animated" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; -webkit-animation-duration: 1s; -moz-animation-duration: 1s; animation-duration: 1s; -webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
-                                <img id="bookImage" runat="server" src="" alt="Book Image" />
+                            <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                                <img src="assets/images/slider-dec-v3.png" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <form runat="server">
+                <asp:GridView ID="gvBorrowingRecords" runat="server" AutoGenerateColumns="true" CssClass="table table-bordered"></asp:GridView>
+            </form>
         </div>
     </div>
     <footer>
