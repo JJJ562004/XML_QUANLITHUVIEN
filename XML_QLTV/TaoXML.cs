@@ -17,7 +17,7 @@ namespace XML_QLTV
 {
     public class TaoXML
     {
-        string strCon = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;Encrypt=False;";
+        string strCon = "Data Source=BINHTRAN\\BINHVAN;Initial Catalog=WNC_QUANLYTHUVIEN2;Integrated Security=True;";
 
         public void taoXML(string sql, string bang, string fileXML)
         {

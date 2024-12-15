@@ -3,76 +3,92 @@
   "WorkspaceRootPath": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\books\\authors.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\authors.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\samples\\blank-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\samples\\blank-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\icons\\font-awesome.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\icons\\font-awesome.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\forms\\basic_elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\forms\\basic_elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\taoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:taoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\signinadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:signinadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\author.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:author.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\books\\authors.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\authors.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\category.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:category.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\books\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\books\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\signinadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:signinadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\book.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:book.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\charts\\chartjs.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\charts\\chartjs.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\vendor\\pages\\books\\staff.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vendor\\pages\\books\\staff.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\pages\\books\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\taoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:taoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\authors.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\authors.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\vendor\\pages\\books\\staff.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vendor\\pages\\books\\staff.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\category.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:category.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:author.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\signinadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:signinadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\signinadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:signinadmin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:book.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,215 +118,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminDashBoard.aspx.cs",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
-              "RelativeDocumentMoniker": "AdminDashBoard.aspx.cs",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
-              "RelativeToolTip": "AdminDashBoard.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T15:47:55.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminDashBoard.aspx",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
-              "RelativeDocumentMoniker": "AdminDashBoard.aspx",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
-              "RelativeToolTip": "AdminDashBoard.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T15:32:48.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "authors.aspx",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx",
-              "RelativeDocumentMoniker": "pages\\books\\authors.aspx",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx",
-              "RelativeToolTip": "pages\\books\\authors.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T15:24:07.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "authors.aspx.cs",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs",
-              "RelativeDocumentMoniker": "pages\\books\\authors.aspx.cs",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs",
-              "RelativeToolTip": "pages\\books\\authors.aspx.cs",
-              "ViewState": "AQIAAFoBAAAAAAAAAAAqwG0BAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T13:47:37.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "author.xml",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml",
-              "RelativeDocumentMoniker": "author.xml",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml",
-              "RelativeToolTip": "author.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-15T13:49:37.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaoXML.cs",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
-              "RelativeDocumentMoniker": "TaoXML.cs",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
-              "RelativeToolTip": "TaoXML.cs",
-              "ViewState": "AQIAALkAAAAAAAAAAAAswBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T13:56:35.613Z",
+              "Title": "blank-page.html",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\samples\\blank-page.html",
+              "RelativeDocumentMoniker": "pages\\samples\\blank-page.html",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\samples\\blank-page.html",
+              "RelativeToolTip": "pages\\samples\\blank-page.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-15T16:26:13.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "library.xml",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
-              "RelativeDocumentMoniker": "library.xml",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
-              "RelativeToolTip": "library.xml",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAlwNEAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-15T13:50:01.972Z",
+              "Title": "font-awesome.html",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\icons\\font-awesome.html",
+              "RelativeDocumentMoniker": "pages\\icons\\font-awesome.html",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\icons\\font-awesome.html",
+              "RelativeToolTip": "pages\\icons\\font-awesome.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-15T16:26:10.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "basic_elements.html",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\forms\\basic_elements.html",
+              "RelativeDocumentMoniker": "pages\\forms\\basic_elements.html",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\forms\\basic_elements.html",
+              "RelativeToolTip": "pages\\forms\\basic_elements.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-15T16:26:08.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "chartjs.html",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\charts\\chartjs.html",
+              "RelativeDocumentMoniker": "pages\\charts\\chartjs.html",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\charts\\chartjs.html",
+              "RelativeToolTip": "pages\\charts\\chartjs.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-15T16:26:04.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "borrow.aspx.cs",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
-              "RelativeDocumentMoniker": "borrow.aspx.cs",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
-              "RelativeToolTip": "borrow.aspx.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAwwGMAAACDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:01:58.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SigninAdmin.aspx",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
-              "RelativeDocumentMoniker": "SigninAdmin.aspx",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
-              "RelativeToolTip": "SigninAdmin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T14:20:26.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "categories.aspx.cs",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
-              "RelativeDocumentMoniker": "pages\\books\\categories.aspx.cs",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
-              "RelativeToolTip": "pages\\books\\categories.aspx.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwHcAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T15:14:55.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "category.xml",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\category.xml",
-              "RelativeDocumentMoniker": "category.xml",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\category.xml",
-              "RelativeToolTip": "category.xml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-15T15:14:35.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "books.aspx",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx",
-              "RelativeDocumentMoniker": "pages\\books\\books.aspx",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx",
-              "RelativeToolTip": "pages\\books\\books.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T13:49:29.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "categories.aspx",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
-              "RelativeDocumentMoniker": "pages\\books\\categories.aspx",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
-              "RelativeToolTip": "pages\\books\\categories.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T15:14:52.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SigninAdmin.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.designer.cs",
-              "RelativeDocumentMoniker": "SigninAdmin.aspx.designer.cs",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.designer.cs",
-              "RelativeToolTip": "SigninAdmin.aspx.designer.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T14:19:56.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "books.aspx.cs",
               "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx.cs",
               "RelativeDocumentMoniker": "pages\\books\\books.aspx.cs",
               "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx.cs",
               "RelativeToolTip": "pages\\books\\books.aspx.cs",
-              "ViewState": "AQIAAFsBAAAAAAAAAADwv6sBAAAqAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAmwI0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T13:51:01.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "book.xml",
-              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book.xml",
-              "RelativeDocumentMoniker": "book.xml",
-              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book.xml",
-              "RelativeToolTip": "book.xml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-15T13:49:39.753Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "authors.aspx.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs",
+              "RelativeDocumentMoniker": "pages\\books\\authors.aspx.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs",
+              "RelativeToolTip": "pages\\books\\authors.aspx.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAQwLcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:47:37.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
+              "Title": "TaoXML.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
+              "RelativeDocumentMoniker": "TaoXML.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
+              "RelativeToolTip": "TaoXML.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:56:35.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "library.xml",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
+              "RelativeDocumentMoniker": "library.xml",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
+              "RelativeToolTip": "library.xml",
+              "ViewState": "AQIAAFMBAAAAAAAAAAAlwNEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-15T13:50:01.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "staff.aspx.designer.cs",
               "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\vendor\\pages\\books\\staff.aspx.designer.cs",
               "RelativeDocumentMoniker": "vendor\\pages\\books\\staff.aspx.designer.cs",
@@ -323,7 +232,151 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDashBoard.aspx.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
+              "RelativeDocumentMoniker": "AdminDashBoard.aspx.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
+              "RelativeToolTip": "AdminDashBoard.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:47:55.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "categories.aspx.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
+              "RelativeDocumentMoniker": "pages\\books\\categories.aspx.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
+              "RelativeToolTip": "pages\\books\\categories.aspx.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAcwIIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:14:55.744Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "category.xml",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\category.xml",
+              "RelativeDocumentMoniker": "category.xml",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\category.xml",
+              "RelativeToolTip": "category.xml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-15T15:14:35.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "author.xml",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml",
+              "RelativeDocumentMoniker": "author.xml",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml",
+              "RelativeToolTip": "author.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-15T13:49:37.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "authors.aspx",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx",
+              "RelativeDocumentMoniker": "pages\\books\\authors.aspx",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx",
+              "RelativeToolTip": "pages\\books\\authors.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T15:24:07.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminDashBoard.aspx",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
+              "RelativeDocumentMoniker": "AdminDashBoard.aspx",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
+              "RelativeToolTip": "AdminDashBoard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T15:32:48.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "borrow.aspx.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
+              "RelativeDocumentMoniker": "borrow.aspx.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
+              "RelativeToolTip": "borrow.aspx.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAwwGMAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:01:58.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SigninAdmin.aspx",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
+              "RelativeDocumentMoniker": "SigninAdmin.aspx",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
+              "RelativeToolTip": "SigninAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T14:20:26.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "books.aspx",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx",
+              "RelativeDocumentMoniker": "pages\\books\\books.aspx",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx",
+              "RelativeToolTip": "pages\\books\\books.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T13:49:29.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "categories.aspx",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
+              "RelativeDocumentMoniker": "pages\\books\\categories.aspx",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
+              "RelativeToolTip": "pages\\books\\categories.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T15:14:52.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SigninAdmin.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.designer.cs",
+              "RelativeDocumentMoniker": "SigninAdmin.aspx.designer.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.designer.cs",
+              "RelativeToolTip": "SigninAdmin.aspx.designer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:19:56.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "book.xml",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book.xml",
+              "RelativeDocumentMoniker": "book.xml",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book.xml",
+              "RelativeToolTip": "book.xml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-15T13:49:39.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "staff.aspx",
               "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\vendor\\pages\\books\\staff.aspx",
               "RelativeDocumentMoniker": "vendor\\pages\\books\\staff.aspx",
@@ -331,8 +384,7 @@
               "RelativeToolTip": "vendor\\pages\\books\\staff.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T13:40:09.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T13:40:09.15Z"
             }
           ]
         }

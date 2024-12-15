@@ -961,6 +961,7 @@
     <Compile Include="pages\Login\LoginAdmin.aspx.designer.cs">
       <DependentUpon>LoginAdmin.aspx</DependentUpon>
     </Compile>
+
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signin.aspx.cs">
       <DependentUpon>Signin.aspx</DependentUpon>

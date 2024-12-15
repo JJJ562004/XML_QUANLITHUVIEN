@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-lg-4 offset-lg-4">
                     <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <h6>Đăng nhập ở đây</h6>
+                        <h6>Sinh viên đăng nhập ở đây</h6>
                         <h4>Chào mừng</h4>
                         <div class="line-dec"></div>
                     </div>
@@ -43,16 +43,17 @@
                             </div>
                             <div class="col-lg-4 col-sm-4">
                                 <fieldset>
-                                    <asp:TextBox ID="txtphone" runat="server" CssClass="email" placeholder="Phone number" AutoComplete="on" Required="True"></asp:TextBox>
+                                    <asp:TextBox ID="txtphone" type="password" runat="server" CssClass="email" placeholder="Password" AutoComplete="on" Required="True"></asp:TextBox>
                                 </fieldset>
                             </div>
                             <div class="col-lg-4 col-sm-4">
                                 <fieldset>
-                                    <asp:Button ID="btnGetQuote" runat="server" CssClass="main-button" Text="Sign in" OnClick="signIn" />
+                                    <asp:Button ID="btnGetQuote" Style="  color: #007BFF; font-weight: bold;"  runat="server" CssClass="main-button" Text="Sign in" OnClick="signIn" />
                                 </fieldset>
                             </div>                         
                         </div>
                     </form>
+                    <a href="SigninAdmin.aspx" style="color: gold;">Đăng nhập Cán Bộ</a>
                 </div>
             </div>
         </div>

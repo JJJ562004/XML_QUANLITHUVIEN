@@ -1,102 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\",
+  "WorkspaceRootPath": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:library.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\Login\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\LoginAdmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\Login\\LoginAdmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashBoard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\style2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:assets\\css\\style2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:author.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaoXML.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\tranvanbinhlaptrinh\\xml\\xml_quanlithuvien\\xml_quanlithuvien\\xml_qltv\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\books\\authors.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\signinadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:signinadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdminDashBoard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:Signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:library.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\homepage_3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:homepage_3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Signin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SigninAdmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\taoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:taoxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SigninAdmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:library.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:book-detail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:book-detail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:borrow.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\authors.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\signinadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:signinadmin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:assets\\css\\style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\signin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:signin.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\.vs\\XML_QLTV\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\XML_QLTV\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\TextFile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:TextFile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\bin\\XML_QLTV.dll.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\XML_QLTV.dll.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -139,297 +115,219 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "library.xslt",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt",
-              "RelativeDocumentMoniker": "library.xslt",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt",
-              "RelativeToolTip": "library.xslt",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003586|",
-              "WhenOpened": "2024-12-12T02:12:16.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Signin.aspx",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx",
-              "RelativeDocumentMoniker": "Signin.aspx",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx",
-              "RelativeToolTip": "Signin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-12T02:12:16.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminDashBoard.aspx",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
-              "RelativeDocumentMoniker": "AdminDashBoard.aspx",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
-              "RelativeToolTip": "AdminDashBoard.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-12T02:17:04.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SigninAdmin.aspx",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
-              "RelativeDocumentMoniker": "SigninAdmin.aspx",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
-              "RelativeToolTip": "SigninAdmin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-14T01:54:22.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdminDashBoard.aspx.cs",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
-              "RelativeDocumentMoniker": "AdminDashBoard.aspx.cs",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
-              "RelativeToolTip": "AdminDashBoard.aspx.cs",
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\.gitignore",
+              "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:22:23.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Style2.css",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\Style2.css",
-              "RelativeDocumentMoniker": "assets\\css\\Style2.css",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\Style2.css",
-              "RelativeToolTip": "assets\\css\\Style2.css",
-              "ViewState": "AgIAAE0AAAAAAAAAAADwv3MAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-14T14:50:28.077Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-15T16:09:03.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\style.css",
-              "RelativeDocumentMoniker": "assets\\css\\style.css",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\style.css",
-              "RelativeToolTip": "assets\\css\\style.css",
-              "ViewState": "AgIAABU4AAAAAAAAAAAAACc4AAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-14T14:48:40.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\index.html",
-              "RelativeToolTip": "index.html",
+              "Title": "AdminDashBoard.aspx.cs",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
+              "RelativeDocumentMoniker": "AdminDashBoard.aspx.cs",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
+              "RelativeToolTip": "AdminDashBoard.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-12T04:13:01.964Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:09:03.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "library.xml",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
-              "RelativeDocumentMoniker": "library.xml",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
-              "RelativeToolTip": "library.xml",
-              "ViewState": "AgIAAMgAAAAAchAsJBQjwBoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "author.xml",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml",
+              "RelativeDocumentMoniker": "author.xml",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml",
+              "RelativeToolTip": "author.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-12T02:12:16.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T16:09:03.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaoXML.cs",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
+              "RelativeDocumentMoniker": "TaoXML.cs",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
+              "RelativeToolTip": "TaoXML.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:09:03.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "authors.aspx.cs",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs",
+              "RelativeDocumentMoniker": "pages\\books\\authors.aspx.cs",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs",
+              "RelativeToolTip": "pages\\books\\authors.aspx.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:09:03.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDashBoard.aspx",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
+              "RelativeDocumentMoniker": "AdminDashBoard.aspx",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
+              "RelativeToolTip": "AdminDashBoard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T16:09:03.988Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Signin.aspx.cs",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.cs",
-              "RelativeDocumentMoniker": "Signin.aspx.cs",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.cs",
-              "RelativeToolTip": "Signin.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T02:12:16.404Z"
+              "Title": "library.xml",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
+              "RelativeDocumentMoniker": "library.xml",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
+              "RelativeToolTip": "library.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-15T16:09:03.99Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "homepage_3.html",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\homepage_3.html",
-              "RelativeDocumentMoniker": "homepage_3.html",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\homepage_3.html",
-              "RelativeToolTip": "homepage_3.html",
-              "ViewState": "AgIAAIQCAAAAAAAAAAAAAAICAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-12T02:12:16.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TaoXML.cs",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
-              "RelativeDocumentMoniker": "TaoXML.cs",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
-              "RelativeToolTip": "TaoXML.cs",
-              "ViewState": "AgIAAAcBAAAAAAAAAAAAwCYBAAABAAAAAAAAAA==",
+              "Title": "Signin.aspx.cs",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.cs",
+              "RelativeDocumentMoniker": "Signin.aspx.cs",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.cs",
+              "RelativeToolTip": "Signin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T05:57:54.323Z"
+              "WhenOpened": "2024-12-15T16:09:03.992Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "packages.config",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\packages.config",
-              "RelativeDocumentMoniker": "packages.config",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\packages.config",
-              "RelativeToolTip": "packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-15T06:06:54.827Z"
+              "Title": "SigninAdmin.aspx.cs",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.cs",
+              "RelativeDocumentMoniker": "SigninAdmin.aspx.cs",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.cs",
+              "RelativeToolTip": "SigninAdmin.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T16:09:03.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SigninAdmin.aspx",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
+              "RelativeDocumentMoniker": "SigninAdmin.aspx",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
+              "RelativeToolTip": "SigninAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T16:09:03.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "library.xslt",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt",
+              "RelativeDocumentMoniker": "library.xslt",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt",
+              "RelativeToolTip": "library.xslt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsBAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003586|",
+              "WhenOpened": "2024-12-15T16:09:03.996Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "categories.aspx.cs",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
-              "RelativeDocumentMoniker": "pages\\books\\categories.aspx.cs",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
-              "RelativeToolTip": "pages\\books\\categories.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "book-detail.aspx.cs",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx.cs",
+              "RelativeDocumentMoniker": "book-detail.aspx.cs",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx.cs",
+              "RelativeToolTip": "book-detail.aspx.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T05:53:40.407Z"
+              "WhenOpened": "2024-12-15T16:09:03.998Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "categories.aspx",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
-              "RelativeDocumentMoniker": "pages\\books\\categories.aspx",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
-              "RelativeToolTip": "pages\\books\\categories.aspx",
+              "Title": "book-detail.aspx",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx",
+              "RelativeDocumentMoniker": "book-detail.aspx",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx",
+              "RelativeToolTip": "book-detail.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-12T02:38:24.625Z"
+              "WhenOpened": "2024-12-15T16:09:04Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "books.aspx.cs",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx.cs",
-              "RelativeDocumentMoniker": "pages\\books\\books.aspx.cs",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx.cs",
-              "RelativeToolTip": "pages\\books\\books.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T05:53:52.378Z"
+              "Title": "borrow.aspx",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx",
+              "RelativeDocumentMoniker": "borrow.aspx",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx",
+              "RelativeToolTip": "borrow.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T16:09:04.002Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "books.aspx",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx",
-              "RelativeDocumentMoniker": "pages\\books\\books.aspx",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\books.aspx",
-              "RelativeToolTip": "pages\\books\\books.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-12T02:25:13.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "XML_QLTV.dll.config",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\bin\\XML_QLTV.dll.config",
-              "RelativeDocumentMoniker": "bin\\XML_QLTV.dll.config",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\bin\\XML_QLTV.dll.config",
-              "RelativeToolTip": "bin\\XML_QLTV.dll.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-15T05:52:23.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SigninAdmin.aspx.cs",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.cs",
-              "RelativeDocumentMoniker": "SigninAdmin.aspx.cs",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.cs",
-              "RelativeToolTip": "SigninAdmin.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABcAAAAAAAAAA==",
+              "Title": "borrow.aspx.cs",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
+              "RelativeDocumentMoniker": "borrow.aspx.cs",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
+              "RelativeToolTip": "borrow.aspx.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T02:11:45.385Z"
+              "WhenOpened": "2024-12-15T16:09:04.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "style1.css",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\style1.css",
-              "RelativeDocumentMoniker": "assets\\css\\style1.css",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\assets\\css\\style1.css",
-              "RelativeToolTip": "assets\\css\\style1.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAEwCcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T04:06:04.454Z"
+              "DocumentIndex": 1,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\Login.aspx",
+              "RelativeDocumentMoniker": "pages\\Login\\Login.aspx",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\Login.aspx",
+              "RelativeToolTip": "pages\\Login\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T10:47:48.305Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "authors.aspx",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx",
-              "RelativeDocumentMoniker": "pages\\books\\authors.aspx",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx",
-              "RelativeToolTip": "pages\\books\\authors.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Title": "Signin.aspx",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx",
+              "RelativeDocumentMoniker": "Signin.aspx",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx",
+              "RelativeToolTip": "Signin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-12T02:47:38.011Z"
+              "WhenOpened": "2024-12-15T16:09:04.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Signin.aspx.designer.cs",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Signin.aspx.designer.cs",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.designer.cs",
-              "RelativeToolTip": "Signin.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T01:51:45.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "applicationhost.config",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\.vs\\XML_QLTV\\config\\applicationhost.config",
-              "RelativeDocumentMoniker": ".vs\\XML_QLTV\\config\\applicationhost.config",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\.vs\\XML_QLTV\\config\\applicationhost.config",
-              "RelativeToolTip": ".vs\\XML_QLTV\\config\\applicationhost.config",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-12T02:21:12.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TextFile1.txt",
-              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\TextFile1.txt",
-              "RelativeDocumentMoniker": "TextFile1.txt",
-              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_QUANLITHUVIEN\\XML_QUANLITHUVIEN\\XML_QLTV\\TextFile1.txt",
-              "RelativeToolTip": "TextFile1.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABVAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-12T02:12:16.408Z"
+              "DocumentIndex": 2,
+              "Title": "LoginAdmin.aspx",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\LoginAdmin.aspx",
+              "RelativeDocumentMoniker": "pages\\Login\\LoginAdmin.aspx",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\LoginAdmin.aspx",
+              "RelativeToolTip": "pages\\Login\\LoginAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T10:47:41.304Z"
             }
           ]
         }
