@@ -96,7 +96,7 @@
 							</div>
 						</div>
 					</div>
-				</div>				
+				</div>
 
 				<div id="services" class="services section">
 					<div class="container">
@@ -244,8 +244,40 @@
 																				</div>
 																				<div class="col-lg-6 align-self-center">
 																					<div class="right-image">
-																						<img src="assets/images/portfolio-03.jpg" alt="Book Image" />
+																						<xsl:for-each select="/Library/Books/Book[CategoryID = $categoryID]">
+																							<xsl:sort select="count(/Library/BorrowingRecords/BorrowingRecord[BookID = current()/BookID])" order="descending"/>
+																							<xsl:if test="position() = 1">
+																								<img src="{ImageURL}" alt="Book Image" />
+																							</xsl:if>
+																						</xsl:for-each>
 																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+																		<div class="row">
+																			<div class="col-lg-12">
+																				<div class="loop owl-carousel">
+																					<xsl:for-each select="/Library/Books/Book[CategoryID = $categoryID]">
+																						<div class="item">
+																							<a href="book-detail.aspx?id={BookID}">
+																								<div class="portfolio-item">
+																									<div class="thumb">
+																										<img src="{ImageURL}" alt="{Title}" />
+																									</div>
+																									<div class="down-content">
+																										<h4>
+																											<xsl:value-of select="Title" />
+																										</h4>
+																										<span>
+																											Năm xuất bản: <xsl:value-of select="PublishedYear" />
+																										</span>
+																									</div>
+																								</div>
+																							</a>
+																						</div>
+																					</xsl:for-each>
 																				</div>
 																			</div>
 																		</div>
@@ -389,7 +421,7 @@
 					</div>
 				</div>
 				<!-- End Tác giả -->
-				
+
 				<div id="about" class="about section">
 					<div class="container">
 						<div class="row">
@@ -717,7 +749,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<footer>
 					<div class="container">
 						<div class="row">

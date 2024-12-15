@@ -11,7 +11,7 @@ namespace XML_QLTV.pages.books
 {
 
 
-    public partial class authors
+    public partial class categories
     {
 
         /// <summary>
