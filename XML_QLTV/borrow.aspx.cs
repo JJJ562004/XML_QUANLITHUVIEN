@@ -120,7 +120,7 @@ namespace XML_QLTV
 
         private void LoadBorrowingRecords()
         {
-            string connectionString = "Data Source=DESKTOP-IA0NH5J;Initial Catalog=WNC_QUANLYTHIVIEN_REAL;Integrated Security=True;";
+            string connectionString = "Data Source=DESKTOP-IA0NH5J;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {

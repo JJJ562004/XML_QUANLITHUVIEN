@@ -21,7 +21,7 @@ namespace XML_QLTV
 
         private void GetBookDetails(string bookId)
         {
-            string connectionString = "Data Source=DESKTOP-IA0NH5J;Initial Catalog=WNC_QUANLYTHIVIEN_REAL;Integrated Security=True;";
+            string connectionString = "Data Source=BINHTRAN\\BINHVAN;Initial Catalog=WNC_QUANLYTHUVIEN2;Integrated Security=True;";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -52,7 +52,7 @@ namespace XML_QLTV
                     }
                     else
                     {
-                        bookImage.Src = "~/assets/images/demo-1.jpg"; 
+                        bookImage.Src = "../assets/images/portfolio-03.jpg"; 
                     }
                 }
                 else

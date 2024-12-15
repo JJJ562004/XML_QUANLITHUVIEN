@@ -18,46 +18,22 @@
   </xs:schema>
   <Author>
     <AuthorID>1</AuthorID>
-    <AuthorName>Nikolai A. Ostrovsky</AuthorName>
-  </Author>
-  <Author>
-    <AuthorID>2</AuthorID>
-    <AuthorName>Dale Carnegie</AuthorName>
-  </Author>
-  <Author>
-    <AuthorID>3</AuthorID>
-    <AuthorName>Victor Hugo</AuthorName>
-  </Author>
-  <Author>
-    <AuthorID>4</AuthorID>
-    <AuthorName>Stephen R. Covey</AuthorName>
-  </Author>
-  <Author>
-    <AuthorID>5</AuthorID>
-    <AuthorName>Charles Duhigg</AuthorName>
-  </Author>
-  <Author>
-    <AuthorID>6</AuthorID>
     <AuthorName>Nguyễn Nhật Ánh</AuthorName>
   </Author>
   <Author>
-    <AuthorID>7</AuthorID>
-    <AuthorName>Paulo Coelho</AuthorName>
+    <AuthorID>2</AuthorID>
+    <AuthorName>J.K. Rowling</AuthorName>
   </Author>
   <Author>
-    <AuthorID>8</AuthorID>
-    <AuthorName>Nam Cao</AuthorName>
+    <AuthorID>3</AuthorID>
+    <AuthorName>Nguyễn Du</AuthorName>
   </Author>
   <Author>
-    <AuthorID>9</AuthorID>
-    <AuthorName>Tô Hoài</AuthorName>
+    <AuthorID>4</AuthorID>
+    <AuthorName>Victor Hugo</AuthorName>
   </Author>
   <Author>
-    <AuthorID>10</AuthorID>
-    <AuthorName>Thanh Hieu</AuthorName>
-  </Author>
-  <Author>
-    <AuthorID>11</AuthorID>
-    <AuthorName>hie</AuthorName>
+    <AuthorID>5</AuthorID>
+    <AuthorName>Kim Dung</AuthorName>
   </Author>
 </NewDataSet>

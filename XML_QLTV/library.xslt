@@ -31,7 +31,7 @@
 								<nav class="main-nav">
 									<!-- ***** Logo Start ***** -->
 									<a href="index.html" class="logo">
-										<img src="assets/images/logo-v3.png" alt=""/>
+										<img src="/images/logo.png" width="100" height="100" alt=""/>
 									</a>
 									<!-- ***** Logo End ***** -->
 									<!-- ***** Menu Start ***** -->
@@ -89,7 +89,7 @@
 									</div>
 									<div class="col-lg-6">
 										<div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-											<img src="assets/images/slider-dec-v3.png" alt=""/>
+											<img src="/images/stack-of-books.png" alt=""/>
 										</div>
 									</div>
 								</div>
@@ -441,7 +441,7 @@
 								<div class="row">
 									<div class="col-lg-6">
 										<div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-											<img src="assets/images/tuan.jpg" height="500" alt=""/>
+											<img src="assets/images/tuan.jpg" height="600" alt=""/>
 										</div>
 									</div>
 									<div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">

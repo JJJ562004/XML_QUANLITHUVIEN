@@ -876,21 +876,10 @@
     <Content Include="library.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="vendor\pages\books\categories.aspx" />
-    <Content Include="vendor\pages\books\books.aspx" />
-    <Content Include="vendor\pages\books\authors.aspx" />
-    <Content Include="vendor\pages\charts\chartjs.html" />
-    <Content Include="vendor\pages\forms\basic_elements.html" />
-    <Content Include="vendor\pages\icons\font-awesome.html" />
-    <Content Include="vendor\pages\samples\blank-page.html" />
-    <Content Include="vendor\pages\samples\error-404.html" />
-    <Content Include="vendor\pages\samples\error-500.html" />
-    <Content Include="vendor\pages\samples\login.html" />
-    <Content Include="vendor\pages\samples\register.html" />
-    <Content Include="vendor\pages\tables\basic-table.html" />
-    <Content Include="vendor\pages\ui-features\buttons.html" />
-    <Content Include="vendor\pages\ui-features\dropdowns.html" />
-    <Content Include="vendor\pages\ui-features\typography.html" />
+    <Content Include="SigninAdmin.aspx" />
+    <Content Include="pages\books\categories.aspx" />
+    <Content Include="pages\books\books.aspx" />
+    <Content Include="pages\books\authors.aspx" />
     <Content Include="Signin.aspx" />
     <Content Include="TextFile1.txt" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
@@ -924,40 +913,33 @@
     <Compile Include="borrow.aspx.designer.cs">
       <DependentUpon>borrow.aspx</DependentUpon>
     </Compile>
-    <Compile Include="vendor\pages\books\categories.aspx.cs">
+    <Compile Include="SigninAdmin.aspx.cs">
+      <DependentUpon>SigninAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SigninAdmin.aspx.designer.cs">
+      <DependentUpon>SigninAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\books\categories.aspx.cs">
       <DependentUpon>categories.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="vendor\pages\books\categories.aspx.designer.cs">
+    <Compile Include="pages\books\categories.aspx.designer.cs">
       <DependentUpon>categories.aspx</DependentUpon>
     </Compile>
-    <Compile Include="vendor\pages\books\books.aspx.cs">
+    <Compile Include="pages\books\books.aspx.cs">
       <DependentUpon>books.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="vendor\pages\books\books.aspx.designer.cs">
+    <Compile Include="pages\books\books.aspx.designer.cs">
       <DependentUpon>books.aspx</DependentUpon>
     </Compile>
-    <Compile Include="vendor\pages\books\authors.aspx.cs">
+    <Compile Include="pages\books\authors.aspx.cs">
       <DependentUpon>authors.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="vendor\pages\books\authors.aspx.designer.cs">
+    <Compile Include="pages\books\authors.aspx.designer.cs">
       <DependentUpon>authors.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\Login\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Login\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\Login\LoginAdmin.aspx.cs">
-      <DependentUpon>LoginAdmin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Login\LoginAdmin.aspx.designer.cs">
-      <DependentUpon>LoginAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signin.aspx.cs">
