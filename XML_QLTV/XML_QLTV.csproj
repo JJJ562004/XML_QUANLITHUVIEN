@@ -776,6 +776,7 @@
     <Content Include="pages\books\categories.aspx" />
     <Content Include="pages\books\books.aspx" />
     <Content Include="pages\books\authors.aspx" />
+    <Content Include="pages\books\staff.aspx" />
     <Content Include="pages\charts\chartjs.html" />
     <Content Include="pages\forms\basic_elements.html" />
     <Content Include="pages\icons\font-awesome.html" />
@@ -829,6 +830,13 @@
     </Compile>
     <Compile Include="pages\books\authors.aspx.designer.cs">
       <DependentUpon>authors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\books\staff.aspx.cs">
+      <DependentUpon>staff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\books\staff.aspx.designer.cs">
+      <DependentUpon>staff.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

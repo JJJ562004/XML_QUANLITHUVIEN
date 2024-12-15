@@ -228,7 +228,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="pages/books/staff.aspx">
                             <i class="menu-icon mdi mdi-account-circle-outline"></i>
                             <span class="menu-title">Quản lý cán bộ</span>
                         </a>

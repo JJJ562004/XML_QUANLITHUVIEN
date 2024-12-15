@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="categories.aspx.cs" Inherits="XML_QLTV.pages.books.authors" EnableViewState="true" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="authors.aspx.cs" Inherits="XML_QLTV.pages.books.authors" EnableViewState="true" %>
 
 <!DOCTYPE html>
 <html lang="en">
