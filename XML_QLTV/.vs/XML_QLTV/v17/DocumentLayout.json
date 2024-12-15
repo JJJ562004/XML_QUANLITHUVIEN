@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\borrow.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:borrow.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:borrow.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:book-detail.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|c:\\temp\\xml_quanlithuvien\\xml_qltv\\library.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:library.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:book-detail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "borrow.aspx.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
+              "RelativeDocumentMoniker": "borrow.aspx.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
+              "RelativeToolTip": "borrow.aspx.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAIwIQAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:23:55.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "borrow.aspx",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx",
+              "RelativeDocumentMoniker": "borrow.aspx",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx",
+              "RelativeToolTip": "borrow.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-15T09:23:47.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "book-detail.aspx.cs",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx.cs",
+              "RelativeDocumentMoniker": "book-detail.aspx.cs",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx.cs",
+              "RelativeToolTip": "book-detail.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBcAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:23:29.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "book-detail.aspx",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx",
+              "RelativeDocumentMoniker": "book-detail.aspx",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx",
+              "RelativeToolTip": "book-detail.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-13T14:53:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "library.xslt",
+              "DocumentMoniker": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt",
+              "RelativeDocumentMoniker": "library.xslt",
+              "ToolTip": "C:\\Temp\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt",
+              "RelativeToolTip": "library.xslt",
+              "ViewState": "AQIAADkAAAAAAAAAAAAawFMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003586|",
+              "WhenOpened": "2024-12-12T01:27:52.7Z",
+              "EditorCaption": ""
             }
           ]
         }
