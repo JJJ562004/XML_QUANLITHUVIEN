@@ -17,10 +17,14 @@ namespace XML_QLTV
 {
     public class TaoXML
     {
-        string strCon = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN;Integrated Security=True;Encrypt=False;Trust Server Certificate=True";
+        string strCon = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;Encrypt=False;";
 
         public void taoXML(string sql, string bang, string fileXML)
         {
+            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + fileXML))
+            {
+                File.Delete(AppDomain.CurrentDomain.BaseDirectory + fileXML);
+            }
             SqlConnection con = new SqlConnection(strCon);
             con.Open();
             SqlDataAdapter ad = new SqlDataAdapter(sql, con);

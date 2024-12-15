@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace XML_QLTV
+namespace XML_QLTV.pages.Login
 {
 
 
-    public partial class AdminDashBoard
+    public partial class Login
     {
     }
 }
