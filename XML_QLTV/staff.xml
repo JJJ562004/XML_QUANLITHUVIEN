@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Staff" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Staff">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="StaffID" type="xs:int" minOccurs="0" />
+                <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+                <xs:element name="LastName" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="PhoneNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="Role" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Staff>
+    <StaffID>1</StaffID>
+    <FirstName>Hương</FirstName>
+    <LastName>Nguyễn Thị</LastName>
+    <Email>huong.nguyen@example.com</Email>
+    <PhoneNumber>0912345678</PhoneNumber>
+    <Role>Thủ thư</Role>
+  </Staff>
+  <Staff>
+    <StaffID>2</StaffID>
+    <FirstName>Nam</FirstName>
+    <LastName>Trần Văn</LastName>
+    <Email>nam.tran@example.com</Email>
+    <PhoneNumber>0934567890</PhoneNumber>
+    <Role>Quản lý</Role>
+  </Staff>
+  <Staff>
+    <StaffID>3</StaffID>
+    <FirstName>Linh</FirstName>
+    <LastName>Phạm Thị</LastName>
+    <Email>linh.pham@example.com</Email>
+    <PhoneNumber>0976543210</PhoneNumber>
+    <Role>Thủ thư</Role>
+  </Staff>
+  <Staff>
+    <StaffID>4</StaffID>
+    <FirstName>Tuấn</FirstName>
+    <LastName>Hoàng Anh</LastName>
+    <Email>tuan.hoang@example.com</Email>
+    <PhoneNumber>0923456781</PhoneNumber>
+    <Role>Trợ lý</Role>
+  </Staff>
+  <Staff>
+    <StaffID>5</StaffID>
+    <FirstName>Khang</FirstName>
+    <LastName>Võ Minh</LastName>
+    <Email>khang.vo@example.com</Email>
+    <PhoneNumber>0943215678</PhoneNumber>
+    <Role>Trưởng phòng</Role>
+  </Staff>
+  <Staff>
+    <StaffID>6</StaffID>
+    <FirstName>Hà</FirstName>
+    <LastName>Đặng Thị</LastName>
+    <Email>ha.dang@example.com</Email>
+    <PhoneNumber>0915674320</PhoneNumber>
+    <Role>Thủ thư</Role>
+  </Staff>
+  <Staff>
+    <StaffID>7</StaffID>
+    <FirstName>Thảo</FirstName>
+    <LastName>Trương Hải</LastName>
+    <Email>thao.truong@example.com</Email>
+    <PhoneNumber>0963457892</PhoneNumber>
+    <Role>Thủ thư</Role>
+  </Staff>
+  <Staff>
+    <StaffID>8</StaffID>
+    <FirstName>Bảo</FirstName>
+    <LastName>Ngô Quốc</LastName>
+    <Email>bao.ngo@example.com</Email>
+    <PhoneNumber>0987651234</PhoneNumber>
+    <Role>Quản lý</Role>
+  </Staff>
+  <Staff>
+    <StaffID>9</StaffID>
+    <FirstName>Chi</FirstName>
+    <LastName>Bùi Mai</LastName>
+    <Email>chi.bui@example.com</Email>
+    <PhoneNumber>0934561234</PhoneNumber>
+    <Role>Trưởng phòng</Role>
+  </Staff>
+  <Staff>
+    <StaffID>10</StaffID>
+    <FirstName>Phong</FirstName>
+    <LastName>Lê Hồng</LastName>
+    <Email>phong.le@example.com</Email>
+    <PhoneNumber>0912349876</PhoneNumber>
+    <Role>Trợ lý</Role>
+  </Staff>
+</NewDataSet>
