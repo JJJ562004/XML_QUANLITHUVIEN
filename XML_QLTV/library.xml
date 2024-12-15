@@ -235,27 +235,60 @@
       <ReturnDate>
       </ReturnDate>
     </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>2ce38f3e-32be-44f0-ba5e-b79ee82bd86a</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>3</BookID>
+      <BorrowDate>2024-12-15</BorrowDate>
+      <DueDate>2024-12-29</DueDate>
+      <ReturnDate>
+      </ReturnDate>
+    </BorrowingRecord>
   </BorrowingRecords>
   <Authors>
     <Author>
       <AuthorID>1</AuthorID>
-      <AuthorName>Nguyễn Nhật Ánh</AuthorName>
+      <AuthorName>Nikolai A. Ostrovsky</AuthorName>
     </Author>
     <Author>
       <AuthorID>2</AuthorID>
-      <AuthorName>J.K. Rowling</AuthorName>
+      <AuthorName>Dale Carnegie</AuthorName>
     </Author>
     <Author>
       <AuthorID>3</AuthorID>
-      <AuthorName>Nguyễn Du</AuthorName>
-    </Author>
-    <Author>
-      <AuthorID>4</AuthorID>
       <AuthorName>Victor Hugo</AuthorName>
     </Author>
     <Author>
+      <AuthorID>4</AuthorID>
+      <AuthorName>Stephen R. Covey</AuthorName>
+    </Author>
+    <Author>
       <AuthorID>5</AuthorID>
-      <AuthorName>Kim Dung</AuthorName>
+      <AuthorName>Charles Duhigg</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>6</AuthorID>
+      <AuthorName>Nguyễn Nhật Ánh</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>7</AuthorID>
+      <AuthorName>Paulo Coelho</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>8</AuthorID>
+      <AuthorName>Nam Cao</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>9</AuthorID>
+      <AuthorName>Tô Hoài</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>10</AuthorID>
+      <AuthorName>Thanh Hieu</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>11</AuthorID>
+      <AuthorName>hie</AuthorName>
     </Author>
   </Authors>
   <BookAuthors>

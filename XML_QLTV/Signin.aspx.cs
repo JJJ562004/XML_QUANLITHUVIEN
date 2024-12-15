@@ -25,7 +25,7 @@ namespace XML_QLTV
 
             if (email == "admin@gmail.com" && phone == "000")
             {
-                Response.Redirect("library.xslt");
+                Response.Redirect("AdminDashBoard.aspx");
             }
             else
             {
