@@ -6,6 +6,7 @@ using System.Security.Policy;
 using System.Web;
 using System.Web.UI;
 using System.Windows.Forms;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace XML_QLTV.pages.books
@@ -138,6 +139,24 @@ namespace XML_QLTV.pages.books
                     Response.Write("<script>alert('No books selected for deletion.')</script>");
                 }
 
+                // Delete book in library.xml
+                string fileXML = Server.MapPath("~/library.xml");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(fileXML);
+
+                // Locate the book node using BookID
+                XmlNode bookNode = doc.SelectSingleNode($"/Library/Books/Book[BookID='{selectedAuthorIDs}']");
+                if (bookNode != null)
+                {
+                    XmlNode booksNode = doc.SelectSingleNode("/Library/Books");
+                    booksNode.RemoveChild(bookNode);
+                    doc.Save(fileXML);
+                }
+                else
+                {
+                    throw new Exception("Book with specified ID not found.");
+                }
+
                 // Reload the authors table
                 LoadBooks();
             }
@@ -170,6 +189,35 @@ namespace XML_QLTV.pages.books
                 {
                     Response.Write("<script>alert('No books selected for update.')</script>");
                 }
+
+                // Load the XML file
+                string fileXML = Server.MapPath("~/library.xml");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(fileXML);
+
+                // Locate the book node by BookID
+                XmlNode bookNode = doc.SelectSingleNode($"/Library/Books/Book[BookID='{selectedBookID}']");
+
+                if (bookNode != null)
+                {
+                    // Update the book's fields
+                    bookNode["Title"].InnerText = System.Security.SecurityElement.Escape(Title);
+                    bookNode["PublisherID"].InnerText = selectedBookID;
+                    bookNode["CategoryID"].InnerText = selectedBookcategoryID;
+                    bookNode["PublishedYear"].InnerText = selectedBookYear;
+                    bookNode["Quantity"].InnerText = selectedBookQuantity;
+                    bookNode["Description"].InnerText = System.Security.SecurityElement.Escape(selectedBookDescription);
+                    bookNode["ImageURL"].InnerText = System.Security.SecurityElement.Escape(selectedBookImageURL);
+
+                    // Save the updated XML
+                    doc.Save(fileXML);
+                }
+
+                else
+                {
+                    throw new Exception("Book with specified ID not found.");
+                }
+
 
                 // Reload the authors table
                 LoadBooks();
@@ -346,7 +394,41 @@ namespace XML_QLTV.pages.books
                     return;
                 }
 
-                // 1. Add to XML File
+                // 1. Add to XML File library.xml
+                // Load the XML file
+                string fileXML = Server.MapPath("~/library.xml");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(fileXML);
+
+                // Find the highest BookID
+                XmlNodeList bookNodes = doc.SelectNodes("/Library/Books/Book/BookID");
+                int maxBookID = 0;
+                foreach (XmlNode bookNode in bookNodes)
+                {
+                    int currentID = int.Parse(bookNode.InnerText);
+                    if (currentID > maxBookID)
+                    {
+                        maxBookID = currentID;
+                    }
+                }
+                int newBookID = maxBookID + 1; // Increment to generate the next ID
+
+                // Construct the new book XML
+                XmlElement newBook = doc.CreateElement("Book");
+                newBook.InnerXml = $@"
+                <BookID>{newBookID}</BookID>
+                <Title>{System.Security.SecurityElement.Escape(bookName)}</Title>
+                <PublisherID>{publisherID}</PublisherID>
+                <CategoryID>{categoryID}</CategoryID>
+                <PublishedYear>{publishedYear}</PublishedYear>
+                <Quantity>{quantity}</Quantity>
+                <Description>{System.Security.SecurityElement.Escape(Description)}</Description>
+                <ImageURL>{System.Security.SecurityElement.Escape(ImageURL)}</ImageURL>";
+                // Add the new book to the document
+                XmlNode booksNode = doc.SelectSingleNode("/Library/Books");
+                booksNode.AppendChild(newBook);
+                // Save the updated XML
+                doc.Save(fileXML);
 
                 // 2. Add to Database
                 AddBookToDatabase(bookName, PublisherID, CategoryID, PublishedYear, Quantity, Description, ImageURL);

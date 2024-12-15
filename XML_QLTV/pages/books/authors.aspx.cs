@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Security.Policy;
 using System.Web;
 using System.Web.UI;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace XML_QLTV.pages.books
 {
-    public partial class categories : System.Web.UI.Page
+    public partial class authors : System.Web.UI.Page
     {
         private TaoXML xmlHandler;
 
@@ -17,20 +19,20 @@ namespace XML_QLTV.pages.books
             xmlHandler = new TaoXML();
             if (!IsPostBack)
             {
-                LoadCategories();
+                LoadAuthors();
             }
 
         }
 
-        public void Create_category_xml()
+        public void Create_authors_xml()
         {
             xmlHandler = new TaoXML();
 
             try
             {
-                string sql = "SELECT * FROM Category";
-                string bang = "Category";
-                string xmlFile = "category.xml";
+                string sql = "SELECT * FROM Author";
+                string bang = "Author";
+                string xmlFile = "author.xml";
                 xmlHandler.taoXML(sql, bang, xmlFile);
             }
             catch (Exception ex)
@@ -39,22 +41,40 @@ namespace XML_QLTV.pages.books
             }
         }
 
-
-        private DataTable CreateCategorieschema()
+        public string randomDate(Random random)
         {
-            DataTable dt = new DataTable("Category");
-            dt.Columns.Add("CategoryID", typeof(int));
-            dt.Columns.Add("CategoryName", typeof(string));
+            DateTime startDate = new DateTime(1980, 1, 1);
+            DateTime endDate = new DateTime(1999, 12, 31);
+
+            // Create a random generator
+
+
+            // Calculate the range in days
+            int range = (endDate - startDate).Days;
+
+            // Generate a random date
+            DateTime randomDate = startDate.AddDays(random.Next(range + 1));
+
+            // Output the result
+            return randomDate.ToShortDateString();
+        }
+
+        private DataTable CreateAuthorSchema()
+        {
+            DataTable dt = new DataTable("Author");
+            dt.Columns.Add("AuthorID", typeof(int));
+            dt.Columns.Add("AuthorName", typeof(string));
             return dt;
         }
 
-        private void LoadCategories()
+        private void LoadAuthors()
         {
-            Create_category_xml();
+            Create_authors_xml();
+            Random random = new Random();
             try
             {
-                DataTable dt = CreateCategorieschema();
-                string filePath = Server.MapPath("../../category.xml");
+                DataTable dt = CreateAuthorSchema();
+                string filePath = Server.MapPath("../../author.xml");
 
                 if (System.IO.File.Exists(filePath))
                 {
@@ -66,26 +86,26 @@ namespace XML_QLTV.pages.books
                 }
 
                 string htmlContent = string.Empty;
-                int count = 1;
+
                 foreach (DataRow row in dt.Rows)
                 {
                     htmlContent += $@"
                     <tr>
-                        <td class='align-middle text-center'>{count}</td>
-                        <td class='text-nowrap align-middle'>{HttpUtility.HtmlEncode(row["CategoryName"])}</td>
+                        <td class='align-middle text-center'>{row["AuthorID"]}</td>
+                        <td class='text-nowrap align-middle'>{HttpUtility.HtmlEncode(row["AuthorName"])}</td>
+                        <td class='text-nowrap align-middle'>{randomDate(random)}</td>
                         <td class='text-center align-middle'>
                             <div class='btn-group align-top'>
                                 <button 
                                 class='btn btn-sm btn-outline-secondary badge edit-btn' 
                                 type='button' 
-                                data-authorname='{HttpUtility.HtmlEncode(row["CategoryName"])}'
-                                data-authorID='{row["CategoryID"]}'
+                                data-authorname='{HttpUtility.HtmlEncode(row["AuthorName"])}'
+                                data-authorID='{row["AuthorID"]}'
                                 style='margin-right:12px;'>Edit</button>
-                                <input type='checkbox' name='deleteCheckbox' value='{row["CategoryID"]}' />
+                                <input type='checkbox' name='deleteCheckbox' value='{row["AuthorID"]}' />
                             </div>
                         </td>
                     </tr>";
-                    count++;
                 }
 
                 // Assign the generated HTML to the table content
@@ -114,11 +134,28 @@ namespace XML_QLTV.pages.books
                 }
                 else
                 {
-                    Response.Write("<script>alert('No categories selected for deletion.')</script>");
+                    Response.Write("<script>alert('No authors selected for deletion.')</script>");
                 }
 
+                // Delete book in library.xml
+                string fileXML = Server.MapPath("~/library.xml");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(fileXML);
+
+                // Locate the book node using BookID
+                XmlNode authorNode = doc.SelectSingleNode($"/Library/Authors/Author[AuthorID='{selectedAuthorIDs}']");
+                if (authorNode != null)
+                {
+                    XmlNode authorsNode = doc.SelectSingleNode("/Library/Authors");
+                    authorsNode.RemoveChild(authorNode);
+                    doc.Save(fileXML);
+                }
+                else
+                {
+                    throw new Exception("Author with specified ID not found.");
+                }
                 // Reload the authors table
-                LoadCategories();
+                LoadAuthors();
             }
             catch (Exception ex)
             {
@@ -137,15 +174,37 @@ namespace XML_QLTV.pages.books
                 if (selectedAuthorID != null && selectedAuthorID.Length > 0)
                 {
                     UpdateAuthorInDB(selectedAuthorID, selectedAuthorName);
-                    Response.Write("<script>alert('Cập nhật thành công thể loại.')</script>");
+                    Response.Write("<script>alert('Cập nhật thành công tác giả.')</script>");
                 }
                 else
                 {
-                    Response.Write("<script>alert('No categories selected for update.')</script>");
+                    Response.Write("<script>alert('No authors selected for update.')</script>");
+                }
+
+                //update the author in library.xml
+                string fileXML = Server.MapPath("~/library.xml");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(fileXML);
+
+                // Locate the book node by BookID
+                XmlNode authorNode = doc.SelectSingleNode($"/Library/Authors/Author[AuthorID='{selectedAuthorID}']");
+
+                if (authorNode != null)
+                {
+                    // Update the book's fields
+                    authorNode["AuthorName"].InnerText = System.Security.SecurityElement.Escape(selectedAuthorName);
+
+                    // Save the updated XML
+                    doc.Save(fileXML);
+                }
+
+                else
+                {
+                    throw new Exception("Author with specified ID not found.");
                 }
 
                 // Reload the authors table
-                LoadCategories();
+                LoadAuthors();
             }
             catch (Exception ex)
             {
@@ -159,6 +218,7 @@ namespace XML_QLTV.pages.books
         protected void SearchAuthorByName(object sender, EventArgs e)
         {
             string searchName = Request.Form.Get("searchname");
+            Random random = new Random();
 
             try
             {
@@ -168,30 +228,30 @@ namespace XML_QLTV.pages.books
                 string htmlContent = string.Empty;
                 if (dt.Rows.Count == 0)
                 {
-                    Response.Write("<script>alert('No categories found with that name.')</script>");
-                    LoadCategories();
+                    Response.Write("<script>alert('No authors found with that name.')</script>");
+                    LoadAuthors();
                     return;
                 }
-                int count = 1;
+
                 foreach (DataRow row in dt.Rows)
                 {
                     htmlContent += $@"
             <tr>
-                <td class='align-middle text-center'>{count}</td>
-                <td class='text-nowrap align-middle'>{HttpUtility.HtmlEncode(row["CategoryName"])}</td>
+                <td class='align-middle text-center'>{row["AuthorID"]}</td>
+                <td class='text-nowrap align-middle'>{HttpUtility.HtmlEncode(row["AuthorName"])}</td>
+                <td class='text-nowrap align-middle'>{randomDate(random)}</td>
                 <td class='text-center align-middle'>
                     <div class='btn-group align-top'>
                         <button 
                         class='btn btn-sm btn-outline-secondary badge edit-btn' 
                         type='button' 
-                        data-authorname='{HttpUtility.HtmlEncode(row["CategoryName"])}'
-                        data-authorID='{row["CategoryID"]}'
+                        data-authorname='{HttpUtility.HtmlEncode(row["AuthorName"])}'
+                        data-authorID='{row["AuthorID"]}'
                         style='margin-right:12px;'>Edit</button>
-                        <input type='checkbox' name='deleteCheckbox' value='{row["CategoryID"]}' />
+                        <input type='checkbox' name='deleteCheckbox' value='{row["AuthorID"]}' />
                     </div>
                 </td>
             </tr>";
-                    count++;
                 }
 
                 // Assign the filtered HTML to the table content
@@ -211,7 +271,7 @@ namespace XML_QLTV.pages.books
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "SELECT * FROM Category WHERE CategoryName LIKE @SearchName";
+                string query = "SELECT AuthorID, AuthorName FROM Author WHERE AuthorName LIKE @SearchName";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@SearchName", "%" + searchName + "%");
@@ -234,7 +294,7 @@ namespace XML_QLTV.pages.books
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                string query = "UPDATE Category SET CategoryName = @AuthorName WHERE CategoryID = @AuthorID";
+                string query = "UPDATE Author SET AuthorName = @AuthorName WHERE AuthorID = @AuthorID";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
@@ -252,7 +312,7 @@ namespace XML_QLTV.pages.books
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                string query = "DELETE FROM Category WHERE CategoryID = @AuthorID";
+                string query = "DELETE FROM Author WHERE AuthorID = @AuthorID";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
@@ -274,17 +334,44 @@ namespace XML_QLTV.pages.books
                 // Validate inputs
                 if (string.IsNullOrWhiteSpace(authorName))
                 {
-                    Response.Write("<script>alert('Vui lòng điền đầy đủ tên thể loại.')</script>");
+                    Response.Write("<script>alert('Vui lòng điền đầy đủ thông tin tác giả.')</script>");
                     return;
                 }
 
                 // 1. Add to XML File
+                // Load the XML file
+                XmlDocument doc = new XmlDocument();
+                string fileXML = Server.MapPath("~/library.xml");
+                doc.Load(fileXML);
+
+                XmlNodeList authorNodes = doc.SelectNodes("/Library/Authors/Author/AuthorID");
+                int maxAuthorId = 0;
+                foreach (XmlNode authorNode in authorNodes)
+                {
+                    int currentID = int.Parse(authorNode.InnerText);
+                    if (currentID > maxAuthorId)
+                    {
+                        maxAuthorId = currentID;
+                    }
+                }
+                int newAuthorId = maxAuthorId + 1; // Increment to generate the next ID
+
+                // Construct the new book XML
+                XmlElement newAuthor = doc.CreateElement("Author");
+                newAuthor.InnerXml = $@"
+                <AuthorID>{newAuthorId}</AuthorID>
+                <AuthorName>{System.Security.SecurityElement.Escape(authorName)}</AuthorName>";          
+                // Add the new book to the document
+                XmlNode booksNode = doc.SelectSingleNode("/Library/Authors");
+                booksNode.AppendChild(newAuthor);
+                // Save the updated XML
+                doc.Save(fileXML);
 
                 // 2. Add to Database
                 AddAuthorToDatabase(authorName);
 
                 // Success message
-                Response.Write("<script>alert('Thêm thể loại thành công!')</script>");
+                Response.Write("<script>alert('Thêm tác giả thành công!')</script>");
                 Response.Redirect(Request.RawUrl); // Refresh the page
             }
             catch (Exception ex)
@@ -302,7 +389,7 @@ namespace XML_QLTV.pages.books
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                string query = "INSERT INTO Category (CategoryName) VALUES (@Name)";
+                string query = "INSERT INTO Author (AuthorName) VALUES (@Name)";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
