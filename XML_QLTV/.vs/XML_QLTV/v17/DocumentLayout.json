@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\programming exercises\\nam 124 - sv 3\\cnxml\\baocao cuoiki\\code_baocaocuoiky_qltv\\xml_quanlithuvien\\xml_qltv\\admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\programming exercises\\nam 124 - sv 3\\cnxml\\baocao cuoiki\\code_baocaocuoiky_qltv\\xml_quanlithuvien\\xml_qltv\\pages\\books\\staff.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\staff.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\programming exercises\\nam 124 - sv 3\\cnxml\\baocao cuoiki\\code_baocaocuoiky_qltv\\xml_quanlithuvien\\xml_qltv\\pages\\books\\staff.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\staff.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\programming exercises\\nam 124 - sv 3\\cnxml\\baocao cuoiki\\code_baocaocuoiky_qltv\\xml_quanlithuvien\\xml_qltv\\pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\programming exercises\\nam 124 - sv 3\\cnxml\\baocao cuoiki\\code_baocaocuoiky_qltv\\xml_quanlithuvien\\xml_qltv\\pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:pages\\books\\categories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminDashBoard.aspx.cs",
-              "DocumentMoniker": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
-              "RelativeDocumentMoniker": "AdminDashBoard.aspx.cs",
-              "ToolTip": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
-              "RelativeToolTip": "AdminDashBoard.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T13:31:22.348Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,33 +34,20 @@
               "RelativeToolTip": "pages\\books\\staff.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T13:31:12.985Z",
+              "WhenOpened": "2024-12-15T14:00:11.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "categories.aspx",
-              "DocumentMoniker": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
-              "RelativeDocumentMoniker": "pages\\books\\categories.aspx",
-              "ToolTip": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx",
-              "RelativeToolTip": "pages\\books\\categories.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-15T13:15:04.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "categories.aspx.cs",
-              "DocumentMoniker": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
-              "RelativeDocumentMoniker": "pages\\books\\categories.aspx.cs",
-              "ToolTip": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\categories.aspx.cs",
-              "RelativeToolTip": "pages\\books\\categories.aspx.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAowFcAAAAcAAAA",
+              "DocumentIndex": 0,
+              "Title": "staff.aspx.cs",
+              "DocumentMoniker": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\staff.aspx.cs",
+              "RelativeDocumentMoniker": "pages\\books\\staff.aspx.cs",
+              "ToolTip": "D:\\Programming Exercises\\Nam 124 - SV 3\\CNXML\\BaoCao CuoiKi\\Code_BaoCaoCuoiKy_QLTV\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\staff.aspx.cs",
+              "RelativeToolTip": "pages\\books\\staff.aspx.cs",
+              "ViewState": "AQIAAPQAAAAAAAAAAADgvwcBAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T13:13:37.723Z",
+              "WhenOpened": "2024-12-15T13:58:51.31Z",
               "EditorCaption": ""
             }
           ]
