@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\tranvanbinhlaptrinh\\xml\\xml_new\\xml_quanlithuvien\\xml_qltv\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|d:\\tranvanbinhlaptrinh\\xml\\xml_new\\xml_quanlithuvien\\xml_qltv\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B0F8ED8B-5DEE-4ADF-AB6B-64791B8BE59E}|XML_QLTV.csproj|solutionrelative:admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,7 +114,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-15T15:51:15.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AdminDashBoard.aspx.cs",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx.cs",
               "RelativeDocumentMoniker": "AdminDashBoard.aspx.cs",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "author.xml",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\author.xml",
               "RelativeDocumentMoniker": "author.xml",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TaoXML.cs",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\TaoXML.cs",
               "RelativeDocumentMoniker": "TaoXML.cs",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "authors.aspx.cs",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\books\\authors.aspx.cs",
               "RelativeDocumentMoniker": "pages\\books\\authors.aspx.cs",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminDashBoard.aspx",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\AdminDashBoard.aspx",
               "RelativeDocumentMoniker": "AdminDashBoard.aspx",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "library.xml",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xml",
               "RelativeDocumentMoniker": "library.xml",
@@ -188,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Signin.aspx.cs",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx.cs",
               "RelativeDocumentMoniker": "Signin.aspx.cs",
@@ -201,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SigninAdmin.aspx.cs",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx.cs",
               "RelativeDocumentMoniker": "SigninAdmin.aspx.cs",
@@ -214,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SigninAdmin.aspx",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\SigninAdmin.aspx",
               "RelativeDocumentMoniker": "SigninAdmin.aspx",
@@ -227,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "library.xslt",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\library.xslt",
               "RelativeDocumentMoniker": "library.xslt",
@@ -240,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "book-detail.aspx.cs",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx.cs",
               "RelativeDocumentMoniker": "book-detail.aspx.cs",
@@ -253,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "book-detail.aspx",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\book-detail.aspx",
               "RelativeDocumentMoniker": "book-detail.aspx",
@@ -266,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "borrow.aspx",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx",
               "RelativeDocumentMoniker": "borrow.aspx",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "borrow.aspx.cs",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\borrow.aspx.cs",
               "RelativeDocumentMoniker": "borrow.aspx.cs",
@@ -292,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Login.aspx",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\Login.aspx",
               "RelativeDocumentMoniker": "pages\\Login\\Login.aspx",
@@ -304,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Signin.aspx",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\Signin.aspx",
               "RelativeDocumentMoniker": "Signin.aspx",
@@ -317,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LoginAdmin.aspx",
               "DocumentMoniker": "D:\\TranVanBinhLapTrinh\\XML\\XML_NEW\\XML_QUANLITHUVIEN\\XML_QLTV\\pages\\Login\\LoginAdmin.aspx",
               "RelativeDocumentMoniker": "pages\\Login\\LoginAdmin.aspx",
