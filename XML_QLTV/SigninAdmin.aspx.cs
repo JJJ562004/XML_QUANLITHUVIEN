@@ -22,9 +22,9 @@ namespace XML_QLTV
             string email = txtemail.Text;
             string phone = txtphone.Text;
 
-            if (email == "admin@gmail.com" && phone == "000")
+            if (email == "user@gmail.com" && phone == "999")
             {
-                Response.Redirect("library.xslt");
+                Response.Redirect("library.xml");
             }
             else
             {
