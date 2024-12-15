@@ -876,6 +876,26 @@
     <Content Include="library.xslt">
       <SubType>Designer</SubType>
     </Content>
+<<<<<<< HEAD
+    <Content Include="pages\books\categories.aspx" />
+    <Content Include="pages\books\books.aspx" />
+    <Content Include="pages\books\authors.aspx" />
+    <Content Include="pages\books\staff.aspx" />
+    <Content Include="pages\charts\chartjs.html" />
+    <Content Include="pages\forms\basic_elements.html" />
+    <Content Include="pages\icons\font-awesome.html" />
+    <Content Include="pages\Login\Login.aspx" />
+    <Content Include="pages\Login\LoginAdmin.aspx" />
+    <Content Include="pages\samples\blank-page.html" />
+    <Content Include="pages\samples\error-404.html" />
+    <Content Include="pages\samples\error-500.html" />
+    <Content Include="pages\samples\login.html" />
+    <Content Include="pages\samples\register.html" />
+    <Content Include="pages\tables\basic-table.html" />
+    <Content Include="pages\ui-features\buttons.html" />
+    <Content Include="pages\ui-features\dropdowns.html" />
+    <Content Include="pages\ui-features\typography.html" />
+=======
     <Content Include="vendor\pages\books\categories.aspx" />
     <Content Include="vendor\pages\books\books.aspx" />
     <Content Include="vendor\pages\books\authors.aspx" />
@@ -891,6 +911,7 @@
     <Content Include="vendor\pages\ui-features\buttons.html" />
     <Content Include="vendor\pages\ui-features\dropdowns.html" />
     <Content Include="vendor\pages\ui-features\typography.html" />
+>>>>>>> develop
     <Content Include="Signin.aspx" />
     <Content Include="TextFile1.txt" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
@@ -944,6 +965,13 @@
     </Compile>
     <Compile Include="vendor\pages\books\authors.aspx.designer.cs">
       <DependentUpon>authors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\books\staff.aspx.cs">
+      <DependentUpon>staff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\books\staff.aspx.designer.cs">
+      <DependentUpon>staff.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
