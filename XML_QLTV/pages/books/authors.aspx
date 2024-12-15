@@ -32,6 +32,29 @@
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css'>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/js/bootstrap.bundle.min.js'></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".edit-btn").forEach(function (button) {
+                button.addEventListener("click", function () {
+                    // Retrieve author data from the clicked button's attributes
+                    const authorName = this.getAttribute("data-authorname");
+                    const authorID = this.getAttribute("data-authorID");
+
+                    // Retrieve the input fields for the author name and ID
+                    const inputField = document.querySelector(".authorname");
+                    const inputField_ID = document.querySelector(".authorID");
+
+                    // Ensure the input fields exist before setting values
+                    if (inputField && inputField_ID) {
+                        inputField.value = authorName;  // Set the author name in the text input
+                        inputField_ID.value = authorID;  // Set the author ID in the hidden input
+                    } else {
+                        console.error("Input fields with classes 'authorname' or 'authorID' not found.");
+                    }
+                });
+            });
+        });
+    </script>
 </head>
 <body class="with-welcome-text">
     <form id="form1" runat="server">
@@ -133,18 +156,6 @@
                                                     </table>
                                                 </div>
                                                 <asp:Panel ID="paginationControls" runat="server" EnableViewState="true"></asp:Panel>
-                                                <%-- <div class="d-flex justify-content-center">
-                                                <ul class="pagination mt-3 mb-0">
-                                                    <li class="disabled page-item"><a href="#" class="page-link">‹</a></li>
-                                                    <li class="active page-item"><a href="#" class="page-link">1</a></li>
-                                                    <li class="page-item"><a href="#" class="page-link">2</a></li>
-                                                    <li class="page-item"><a href="#" class="page-link">3</a></li>
-                                                    <li class="page-item"><a href="#" class="page-link">4</a></li>
-                                                    <li class="page-item"><a href="#" class="page-link">5</a></li>
-                                                    <li class="page-item"><a href="#" class="page-link">›</a></li>
-                                                    <li class="page-item"><a href="#" class="page-link">»</a></li>
-                                                </ul>
-                                            </div>--%>
                                             </div>
                                         </div>
                                     </div>
@@ -165,29 +176,32 @@
                                                     OnClientClick="return confirm('Bạn muốn xoá những tác giả đã chọn?');" />
                                             </div>
                                             <hr class="my-3">
-                                            <div class="e-navlist e-navlist--active-bold">
-                                                <ul class="nav">
-                                                    <li class="nav-item active"><a href="#" class="nav-link"><span>All</span>&nbsp;<small>/&nbsp;32</small></a></li>
-                                                    <li class="nav-item"><a href="#" class="nav-link"><span>Active</span>&nbsp;<small>/&nbsp;16</small></a></li>
-                                                    <li class="nav-item"><a href="#" class="nav-link"><span>Selected</span>&nbsp;<small>/&nbsp;0</small></a></li>
-                                                </ul>
-                                            </div>
-                                            <hr class="my-3">
                                             <div>
-                                                <div class="form-group">
-                                                    <label>Date from - to:</label>
-                                                    <div>
-                                                        <input id="dates-range" class="form-control flatpickr-input" placeholder="01 Dec 17 - 27 Jan 18" type="text">
-                                                    </div>
-                                                </div>
                                                 <div class="form-group">
                                                     <label>Tìm theo tên</label>
                                                     <div>
-                                                        <input class="form-control w-100" type="text" placeholder="Name" value="">
+                                                        <input class="form-control w-100" type="text" name="searchname" placeholder="Name" value="">
                                                     </div>
+                                                    <asp:Button
+                                                    runat="server"
+                                                    Text="Tìm kiếm"
+                                                    CssClass="btn btn-primary mt-2"
+                                                    OnClick="SearchAuthorByName" />
                                                 </div>
                                             </div>
                                             <hr class="my-3">
+                                            <div>
+                                                <label>Họ và tên tác giả</label>
+                                                <input name="authorname" class="authorname" type="text" placeholder="Name" value="">
+                                                <input name="authorID" class="authorID" type="hidden" value="">
+                                                <br />
+                                                <br />
+                                                <asp:Button
+                                                    runat="server"
+                                                    Text="Chỉnh sửa"
+                                                    CssClass="btn btn-warning"
+                                                    OnClick="UpdateAuthorById" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -210,11 +224,11 @@
                                                     <div class="col">
                                                         <div class="form-group">
                                                             <label>Họ và tên</label>
-                                                            <input class="form-control" type="text" name="name" id="authorName" placeholder="Nguyễn Văn A"/>
+                                                            <input class="form-control" type="text" name="name" id="authorName" placeholder="Nguyễn Văn A" />
                                                         </div>
                                                         <div class="form-group">
                                                             <label>Ngày sinh</label>
-                                                            <input class="form-control" type="date" name="birthday" id="authorBirthday"/>
+                                                            <input class="form-control" type="date" name="birthday" id="authorBirthday" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -223,8 +237,6 @@
                                                         <button class="btn btn-primary" type="submit" runat="server" onserverclick="AddAuthor_Click">Thêm tác giả</button>
                                                     </div>
                                                 </div>
-
-
                                             </div>
                                         </div>
                                     </div>

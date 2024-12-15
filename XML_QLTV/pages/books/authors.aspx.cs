@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Web;
 using System.Web.UI;
+using System.Windows.Forms;
 
 namespace XML_QLTV.pages.books
 {
@@ -92,7 +94,12 @@ namespace XML_QLTV.pages.books
                         <td class='text-nowrap align-middle'>{randomDate(random)}</td>
                         <td class='text-center align-middle'>
                             <div class='btn-group align-top'>
-                                <button class='btn btn-sm btn-outline-secondary badge' type='button' data-toggle='modal' data-target='#user-form-modal'>Edit</button>
+                                <button 
+                                class='btn btn-sm btn-outline-secondary badge edit-btn' 
+                                type='button' 
+                                data-authorname='{HttpUtility.HtmlEncode(row["AuthorName"])}'
+                                data-authorID='{row["AuthorID"]}'
+                                style='margin-right:12px;'>Edit</button>
                                 <input type='checkbox' name='deleteCheckbox' value='{row["AuthorID"]}' />
                             </div>
                         </td>
@@ -135,6 +142,125 @@ namespace XML_QLTV.pages.books
             {
                 // Handle errors
                 Response.Write($"<script>alert('Error: {HttpUtility.HtmlEncode(ex.Message)}')</script>");
+            }
+        }
+
+        protected void UpdateAuthorById(object sender, EventArgs e)
+        {
+            try
+            {
+                string selectedAuthorID = Request.Form.Get("authorID");
+                string selectedAuthorName = Request.Form.Get("authorname");
+
+                if (selectedAuthorID != null && selectedAuthorID.Length > 0)
+                {
+                    UpdateAuthorInDB(selectedAuthorID, selectedAuthorName);
+                    Response.Write("<script>alert('Cập nhật thành công tác giả.')</script>");
+                }
+                else
+                {
+                    Response.Write("<script>alert('No authors selected for update.')</script>");
+                }
+
+                // Reload the authors table
+                LoadAuthors();
+            }
+            catch (Exception ex)
+            {
+                // Handle errors
+                Response.Write($"<script>alert('Error: {HttpUtility.HtmlEncode(ex.Message)}')</script>");
+            }
+        }
+
+
+
+        protected void SearchAuthorByName(object sender, EventArgs e)
+        {
+            string searchName = Request.Form.Get("searchname");
+            Random random = new Random();
+
+            try
+            {
+                DataTable dt = SearchAuthorsInDB(searchName);
+
+                // Generate the HTML content
+                string htmlContent = string.Empty;
+                if (dt.Rows.Count == 0)
+                {
+                    Response.Write("<script>alert('No authors found with that name.')</script>");
+                    LoadAuthors();
+                    return;
+                }
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    htmlContent += $@"
+            <tr>
+                <td class='align-middle text-center'>{row["AuthorID"]}</td>
+                <td class='text-nowrap align-middle'>{HttpUtility.HtmlEncode(row["AuthorName"])}</td>
+                <td class='text-nowrap align-middle'>{randomDate(random)}</td>
+                <td class='text-center align-middle'>
+                    <div class='btn-group align-top'>
+                        <button 
+                        class='btn btn-sm btn-outline-secondary badge edit-btn' 
+                        type='button' 
+                        data-authorname='{HttpUtility.HtmlEncode(row["AuthorName"])}'
+                        data-authorID='{row["AuthorID"]}'
+                        style='margin-right:12px;'>Edit</button>
+                        <input type='checkbox' name='deleteCheckbox' value='{row["AuthorID"]}' />
+                    </div>
+                </td>
+            </tr>";
+                }
+
+                // Assign the filtered HTML to the table content
+                tableContent.InnerHtml = htmlContent;
+
+
+            }
+            catch (Exception ex)
+            {
+                Response.Write($"<script>alert('{HttpUtility.HtmlEncode(ex.Message)}')</script>");
+            }
+        }
+
+        private DataTable SearchAuthorsInDB(string searchName)
+        {
+            string connectionString = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;Encrypt=False;trustservercertificate=True";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT AuthorID, AuthorName FROM Author WHERE AuthorName LIKE @SearchName";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@SearchName", "%" + searchName + "%");
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+                    DataTable authorsTable = new DataTable();
+                    adapter.Fill(authorsTable);
+
+                    return authorsTable;
+                }
+            }
+        }
+
+
+
+        private void UpdateAuthorInDB(string authorID, string authorName)
+        {
+            string connectionString = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;Encrypt=False;trustservercertificate=True";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "UPDATE Author SET AuthorName = @AuthorName WHERE AuthorID = @AuthorID";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@AuthorID", authorID);
+                    command.Parameters.AddWithValue("@AuthorName", authorName);
+                    command.ExecuteNonQuery();
+                }
             }
         }
 
