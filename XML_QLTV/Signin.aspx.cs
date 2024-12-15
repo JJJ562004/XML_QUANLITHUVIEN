@@ -11,7 +11,7 @@ namespace XML_QLTV
 {
     public partial class Signin : System.Web.UI.Page
     {
-        string conString = "Data Source=DESKTOP-IA0NH5J;Initial Catalog=WNC_QUANLYTHUVIEN;Integrated Security=True";
+        string conString = "Data Source=DESKTOP-IA0NH5J;Initial Catalog=WNC_QUANLYTHIVIEN_REAL;Integrated Security=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -25,7 +25,7 @@ namespace XML_QLTV
 
             if (email == "admin@gmail.com" && phone == "000")
             {
-                Response.Redirect("library.xslt");
+                Response.Redirect("AdminDashBoard.aspx");
             }
             else
             {

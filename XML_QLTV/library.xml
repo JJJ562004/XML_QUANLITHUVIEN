@@ -1,228 +1,316 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="library.xslt"?>
 <Library>
-	<Publishers>
-		<Publisher>
-			<PublisherID>1</PublisherID>
-			<PublisherName>Nhà xuất bản Kim Đồng</PublisherName>
-			<PublisherAddress>Số 55 Quang Trung, Hà Nội</PublisherAddress>
-		</Publisher>
-		<Publisher>
-			<PublisherID>2</PublisherID>
-			<PublisherName>Nhà xuất bản Trẻ</PublisherName>
-			<PublisherAddress>Số 161B Lý Chính Thắng, TP. Hồ Chí Minh</PublisherAddress>
-		</Publisher>
-		<Publisher>
-			<PublisherID>3</PublisherID>
-			<PublisherName>Nhà xuất bản Giáo dục</PublisherName>
-			<PublisherAddress>Số 45 Lê Thánh Tông, Hà Nội</PublisherAddress>
-		</Publisher>
-		<Publisher>
-			<PublisherID>4</PublisherID>
-			<PublisherName>Nhà xuất bản Văn học</PublisherName>
-			<PublisherAddress>Số 12 Hàng Gai, Hà Nội</PublisherAddress>
-		</Publisher>
-		<Publisher>
-			<PublisherID>5</PublisherID>
-			<PublisherName>Nhà xuất bản Lao Động</PublisherName>
-			<PublisherAddress>Số 25 Nguyễn Trãi, Hà Nội</PublisherAddress>
-		</Publisher>
-	</Publishers>
-	<Categories>
-		<Category>
-			<CategoryID>1</CategoryID>
-			<CategoryName>Tiểu thuyết</CategoryName>
-		</Category>
-		<Category>
-			<CategoryID>2</CategoryID>
-			<CategoryName>Truyện ngắn</CategoryName>
-		</Category>
-		<Category>
-			<CategoryID>3</CategoryID>
-			<CategoryName>Giáo dục</CategoryName>
-		</Category>
-		<Category>
-			<CategoryID>4</CategoryID>
-			<CategoryName>Truyện tranh</CategoryName>
-		</Category>
-		<Category>
-			<CategoryID>5</CategoryID>
-			<CategoryName>Khoa học viễn tưởng</CategoryName>
-		</Category>
-	</Categories>
-	<Students>
-		<Student>
-			<StudentID>1</StudentID>
-			<FirstName>Nguyễn Văn</FirstName>
-			<LastName>Linh</LastName>
-			<Email>nguyenlinh@example.com</Email>
-			<PhoneNumber>0912345678</PhoneNumber>
-			<StudentAddress>123 Đinh Tiên Hoàng, Hà Nội</StudentAddress>
-			<EnrollmentDate>2023-09-01</EnrollmentDate>
-		</Student>
-		<Student>
-			<StudentID>2</StudentID>
-			<FirstName>Lê Thị</FirstName>
-			<LastName>Hồng</LastName>
-			<Email>lethihong@example.com</Email>
-			<PhoneNumber>0987654321</PhoneNumber>
-			<StudentAddress>456 Trần Hưng Đạo, Đà Nẵng</StudentAddress>
-			<EnrollmentDate>2023-09-05</EnrollmentDate>
-		</Student>
-		<Student>
-			<StudentID>3</StudentID>
-			<FirstName>Trần Văn</FirstName>
-			<LastName>Nam</LastName>
-			<Email>tranvannam@example.com</Email>
-			<PhoneNumber>0978123456</PhoneNumber>
-			<StudentAddress>789 Nguyễn Văn Cừ, TP. Hồ Chí Minh</StudentAddress>
-			<EnrollmentDate>2023-09-10</EnrollmentDate>
-		</Student>
-		<Student>
-			<StudentID>4</StudentID>
-			<FirstName>Phạm Minh</FirstName>
-			<LastName>Triết</LastName>
-			<Email>phamtriet@example.com</Email>
-			<PhoneNumber>0934561234</PhoneNumber>
-			<StudentAddress>101 Hai Bà Trưng, Hà Nội</StudentAddress>
-			<EnrollmentDate>2023-08-20</EnrollmentDate>
-		</Student>
-		<Student>
-			<StudentID>5</StudentID>
-			<FirstName>Hoàng Thanh</FirstName>
-			<LastName>Tâm</LastName>
-			<Email>hoangtam@example.com</Email>
-			<PhoneNumber>0945678910</PhoneNumber>
-			<StudentAddress>202 Nguyễn Huệ, Huế</StudentAddress>
-			<EnrollmentDate>2023-07-15</EnrollmentDate>
-		</Student>
-	</Students>
-	<Books>
-		<Book>
-			<BookID>1</BookID>
-			<Title>Tôi thấy hoa vàng trên cỏ xanh</Title>
-			<PublisherID>2</PublisherID>
-			<CategoryID>1</CategoryID>
-			<PublishedYear>2010</PublishedYear>
-			<Quantity>10</Quantity>
-		</Book>
-		<Book>
-			<BookID>2</BookID>
-			<Title>Harry Potter và hòn đá phù thủy</Title>
-			<PublisherID>2</PublisherID>
-			<CategoryID>5</CategoryID>
-			<PublishedYear>1997</PublishedYear>
-			<Quantity>15</Quantity>
-		</Book>
-		<Book>
-			<BookID>3</BookID>
-			<Title>Những người khốn khổ</Title>
-			<PublisherID>4</PublisherID>
-			<CategoryID>1</CategoryID>
-			<PublishedYear>1862</PublishedYear>
-			<Quantity>12</Quantity>
-		</Book>
-		<Book>
-			<BookID>4</BookID>
-			<Title>Thần điêu đại hiệp</Title>
-			<PublisherID>5</PublisherID>
-			<CategoryID>1</CategoryID>
-			<PublishedYear>1959</PublishedYear>
-			<Quantity>8</Quantity>
-		</Book>
-		<Book>
-			<BookID>5</BookID>
-			<Title>Doraemon tập 1</Title>
-			<PublisherID>1</PublisherID>
-			<CategoryID>4</CategoryID>
-			<PublishedYear>2002</PublishedYear>
-			<Quantity>20</Quantity>
-		</Book>
-	</Books>
-	<BorrowingRecords>
-		<BorrowingRecord>
-			<BorrowID>1</BorrowID>
-			<StudentID>1</StudentID>
-			<BookID>1</BookID>
-			<BorrowDate>2023-10-01</BorrowDate>
-			<DueDate>2023-10-15</DueDate>
-			<ReturnDate/>
-		</BorrowingRecord>
-		<BorrowingRecord>
-			<BorrowID>2</BorrowID>
-			<StudentID>2</StudentID>
-			<BookID>2</BookID>
-			<BorrowDate>2023-11-01</BorrowDate>
-			<DueDate>2023-11-20</DueDate>
-			<ReturnDate>2023-11-18</ReturnDate>
-		</BorrowingRecord>
-		<BorrowingRecord>
-			<BorrowID>3</BorrowID>
-			<StudentID>3</StudentID>
-			<BookID>3</BookID>
-			<BorrowDate>2023-11-05</BorrowDate>
-			<DueDate>2023-11-15</DueDate>
-			<ReturnDate>2023-11-25</ReturnDate>
-		</BorrowingRecord>
-		<BorrowingRecord>
-			<BorrowID>4</BorrowID>
-			<StudentID>4</StudentID>
-			<BookID>4</BookID>
-			<BorrowDate>2023-10-10</BorrowDate>
-			<DueDate>2023-10-25</DueDate>
-			<ReturnDate/>
-		</BorrowingRecord>
-		<BorrowingRecord>
-			<BorrowID>5</BorrowID>
-			<StudentID>5</StudentID>
-			<BookID>5</BookID>
-			<BorrowDate>2023-09-15</BorrowDate>
-			<DueDate>2023-09-30</DueDate>
-			<ReturnDate>2023-10-01</ReturnDate>
-		</BorrowingRecord>
-	</BorrowingRecords>
-	<Authors>
-		<Author>
-			<AuthorID>1</AuthorID>
-			<AuthorName>Nguyễn Nhật Ánh</AuthorName>
-		</Author>
-		<Author>
-			<AuthorID>2</AuthorID>
-			<AuthorName>J.K. Rowling</AuthorName>
-		</Author>
-		<Author>
-			<AuthorID>3</AuthorID>
-			<AuthorName>Nguyễn Du</AuthorName>
-		</Author>
-		<Author>
-			<AuthorID>4</AuthorID>
-			<AuthorName>Victor Hugo</AuthorName>
-		</Author>
-		<Author>
-			<AuthorID>5</AuthorID>
-			<AuthorName>Kim Dung</AuthorName>
-		</Author>
-	</Authors>
-	<BookAuthors>
-		<BookAuthor>
-			<BookID>1</BookID>
-			<AuthorID>1</AuthorID>
-		</BookAuthor>
-		<BookAuthor>
-			<BookID>2</BookID>
-			<AuthorID>2</AuthorID>
-		</BookAuthor>
-		<BookAuthor>
-			<BookID>3</BookID>
-			<AuthorID>4</AuthorID>
-		</BookAuthor>
-		<BookAuthor>
-			<BookID>4</BookID>
-			<AuthorID>5</AuthorID>
-		</BookAuthor>
-		<BookAuthor>
-			<BookID>5</BookID>
-			<AuthorID>5</AuthorID>
-		</BookAuthor>
-	</BookAuthors>
+  <Publishers>
+    <Publisher>
+      <PublisherID>1</PublisherID>
+      <PublisherName>Nhà xuất bản Kim Đồng</PublisherName>
+      <PublisherAddress>Số 55 Quang Trung, Hà Nội</PublisherAddress>
+    </Publisher>
+    <Publisher>
+      <PublisherID>2</PublisherID>
+      <PublisherName>Nhà xuất bản Trẻ</PublisherName>
+      <PublisherAddress>Số 161B Lý Chính Thắng, TP. Hồ Chí Minh</PublisherAddress>
+    </Publisher>
+    <Publisher>
+      <PublisherID>3</PublisherID>
+      <PublisherName>Nhà xuất bản Giáo dục</PublisherName>
+      <PublisherAddress>Số 45 Lê Thánh Tông, Hà Nội</PublisherAddress>
+    </Publisher>
+    <Publisher>
+      <PublisherID>4</PublisherID>
+      <PublisherName>Nhà xuất bản Văn học</PublisherName>
+      <PublisherAddress>Số 12 Hàng Gai, Hà Nội</PublisherAddress>
+    </Publisher>
+    <Publisher>
+      <PublisherID>5</PublisherID>
+      <PublisherName>Nhà xuất bản Lao Động</PublisherName>
+      <PublisherAddress>Số 25 Nguyễn Trãi, Hà Nội</PublisherAddress>
+    </Publisher>
+  </Publishers>
+  <Categories>
+    <Category>
+      <CategoryID>1</CategoryID>
+      <CategoryName>Tiểu thuyết</CategoryName>
+    </Category>
+    <Category>
+      <CategoryID>2</CategoryID>
+      <CategoryName>Truyện ngắn</CategoryName>
+    </Category>
+    <Category>
+      <CategoryID>3</CategoryID>
+      <CategoryName>Giáo dục</CategoryName>
+    </Category>
+    <Category>
+      <CategoryID>4</CategoryID>
+      <CategoryName>Truyện tranh</CategoryName>
+    </Category>
+    <Category>
+      <CategoryID>5</CategoryID>
+      <CategoryName>Khoa học viễn tưởng</CategoryName>
+    </Category>
+  </Categories>
+  <Students>
+    <Student>
+      <StudentID>1</StudentID>
+      <FirstName>Nguyễn Văn</FirstName>
+      <LastName>Linh</LastName>
+      <Email>nguyenlinh@example.com</Email>
+      <PhoneNumber>0912345678</PhoneNumber>
+      <StudentAddress>123 Đinh Tiên Hoàng, Hà Nội</StudentAddress>
+      <EnrollmentDate>2023-09-01</EnrollmentDate>
+    </Student>
+    <Student>
+      <StudentID>2</StudentID>
+      <FirstName>Lê Thị</FirstName>
+      <LastName>Hồng</LastName>
+      <Email>lethihong@example.com</Email>
+      <PhoneNumber>0987654321</PhoneNumber>
+      <StudentAddress>456 Trần Hưng Đạo, Đà Nẵng</StudentAddress>
+      <EnrollmentDate>2023-09-05</EnrollmentDate>
+    </Student>
+    <Student>
+      <StudentID>3</StudentID>
+      <FirstName>Trần Văn</FirstName>
+      <LastName>Nam</LastName>
+      <Email>tranvannam@example.com</Email>
+      <PhoneNumber>0978123456</PhoneNumber>
+      <StudentAddress>789 Nguyễn Văn Cừ, TP. Hồ Chí Minh</StudentAddress>
+      <EnrollmentDate>2023-09-10</EnrollmentDate>
+    </Student>
+    <Student>
+      <StudentID>4</StudentID>
+      <FirstName>Phạm Minh</FirstName>
+      <LastName>Triết</LastName>
+      <Email>phamtriet@example.com</Email>
+      <PhoneNumber>0934561234</PhoneNumber>
+      <StudentAddress>101 Hai Bà Trưng, Hà Nội</StudentAddress>
+      <EnrollmentDate>2023-08-20</EnrollmentDate>
+    </Student>
+    <Student>
+      <StudentID>5</StudentID>
+      <FirstName>Hoàng Thanh</FirstName>
+      <LastName>Tâm</LastName>
+      <Email>hoangtam@example.com</Email>
+      <PhoneNumber>0945678910</PhoneNumber>
+      <StudentAddress>202 Nguyễn Huệ, Huế</StudentAddress>
+      <EnrollmentDate>2023-07-15</EnrollmentDate>
+    </Student>
+  </Students>
+  <Books>
+    <Book>
+      <BookID>1</BookID>
+      <Title>Tôi thấy hoa vàng trên cỏ xanh</Title>
+      <PublisherID>2</PublisherID>
+      <CategoryID>1</CategoryID>
+      <PublishedYear>2010</PublishedYear>
+      <Quantity>10</Quantity>
+      <Description>A poignant coming-of-age story that captures the innocence and beauty of childhood in a small Vietnamese village, exploring themes of friendship, love, and the simple joys of growing up.</Description>
+      <ImageURL>https://i.ibb.co/17BqG8V/123asd.jpg</ImageURL>
+    </Book>
+    <Book>
+      <BookID>2</BookID>
+      <Title>Harry Potter và hòn đá phù thủy</Title>
+      <PublisherID>2</PublisherID>
+      <CategoryID>5</CategoryID>
+      <PublishedYear>1997</PublishedYear>
+      <Quantity>15</Quantity>
+      <Description>The magical first installment of the beloved series, introducing young Harry Potter as he discovers his wizarding heritage and begins his extraordinary journey at Hogwarts School of Witchcraft and Wizardry.</Description>
+      <ImageURL>https://i.ibb.co/17BqG8V/123asd.jpg</ImageURL>
+    </Book>
+    <Book>
+      <BookID>3</BookID>
+      <Title>Những người khốn khổ</Title>
+      <PublisherID>4</PublisherID>
+      <CategoryID>1</CategoryID>
+      <PublishedYear>1862</PublishedYear>
+      <Quantity>12</Quantity>
+      <Description>Victor Hugo's epic novel of redemption and social injustice, following the life of Jean Valjean as he struggles against personal demons and the rigid social systems of 19th-century France.</Description>
+      <ImageURL>https://i.ibb.co/HGGQS7j/1112.jpg</ImageURL>
+    </Book>
+    <Book>
+      <BookID>4</BookID>
+      <Title>Thần điêu đại hiệp</Title>
+      <PublisherID>5</PublisherID>
+      <CategoryID>1</CategoryID>
+      <PublishedYear>1959</PublishedYear>
+      <Quantity>8</Quantity>
+      <Description>A classic martial arts novel by Jin Yong, weaving an intricate tale of love, honor, and adventure in the world of Chinese wuxia literature, following the journey of extraordinary warriors.</Description>
+      <ImageURL>https://i.ibb.co/17BqG8V/123asd.jpg</ImageURL>
+    </Book>
+    <Book>
+      <BookID>5</BookID>
+      <Title>Doraemon tập 1</Title>
+      <PublisherID>1</PublisherID>
+      <CategoryID>4</CategoryID>
+      <PublishedYear>2002</PublishedYear>
+      <Quantity>20</Quantity>
+      <Description>The first volume of the beloved manga series featuring Doraemon, a robotic cat from the future who helps young Nobita navigate life's challenges with his magical gadgets and endless friendship.</Description>
+      <ImageURL>https://i.ibb.co/HGGQS7j/1112.jpg</ImageURL>
+    </Book>
+  </Books>
+  <BorrowingRecords>
+    <BorrowingRecord>
+      <BorrowID>1</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>1</BookID>
+      <BorrowDate>2023-10-01</BorrowDate>
+      <DueDate>2023-10-15</DueDate>
+      <ReturnDate />
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>2</BorrowID>
+      <StudentID>2</StudentID>
+      <BookID>2</BookID>
+      <BorrowDate>2023-11-01</BorrowDate>
+      <DueDate>2023-11-20</DueDate>
+      <ReturnDate>2023-11-18</ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>3</BorrowID>
+      <StudentID>3</StudentID>
+      <BookID>3</BookID>
+      <BorrowDate>2023-11-05</BorrowDate>
+      <DueDate>2023-11-15</DueDate>
+      <ReturnDate>2023-11-25</ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>4</BorrowID>
+      <StudentID>4</StudentID>
+      <BookID>4</BookID>
+      <BorrowDate>2023-10-10</BorrowDate>
+      <DueDate>2023-10-25</DueDate>
+      <ReturnDate />
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>5</BorrowID>
+      <StudentID>5</StudentID>
+      <BookID>5</BookID>
+      <BorrowDate>2023-09-15</BorrowDate>
+      <DueDate>2023-09-30</DueDate>
+      <ReturnDate>2023-10-01</ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>d7bc86ef-f1d8-4d78-956e-f5b76cb0e450</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>1</BookID>
+      <BorrowDate>2024-12-15</BorrowDate>
+      <DueDate>2024-12-29</DueDate>
+      <ReturnDate>
+      </ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>9547df8c-7a65-4fa1-becc-e448f295f1a1</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>1</BookID>
+      <BorrowDate>2024-12-15</BorrowDate>
+      <DueDate>2024-12-29</DueDate>
+      <ReturnDate>
+      </ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>c3895a45-46e4-4bef-b4f8-ce57058ab11d</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>1</BookID>
+      <BorrowDate>2024-12-15</BorrowDate>
+      <DueDate>2024-12-29</DueDate>
+      <ReturnDate>
+      </ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>b0bc06c4-3a10-4c04-bb78-7f06df086464</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>1</BookID>
+      <BorrowDate>2024-12-15</BorrowDate>
+      <DueDate>2024-12-29</DueDate>
+      <ReturnDate>
+      </ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>c0b9f6af-b1d3-4b05-ab53-4b37e7046c04</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>2</BookID>
+      <BorrowDate>2024-12-15</BorrowDate>
+      <DueDate>2024-12-29</DueDate>
+      <ReturnDate>
+      </ReturnDate>
+    </BorrowingRecord>
+    <BorrowingRecord>
+      <BorrowID>2ce38f3e-32be-44f0-ba5e-b79ee82bd86a</BorrowID>
+      <StudentID>1</StudentID>
+      <BookID>3</BookID>
+      <BorrowDate>2024-12-15</BorrowDate>
+      <DueDate>2024-12-29</DueDate>
+      <ReturnDate>
+      </ReturnDate>
+    </BorrowingRecord>
+  </BorrowingRecords>
+  <Authors>
+    <Author>
+      <AuthorID>1</AuthorID>
+      <AuthorName>Nikolai A. Ostrovsky</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>2</AuthorID>
+      <AuthorName>Dale Carnegie</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>3</AuthorID>
+      <AuthorName>Victor Hugo</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>4</AuthorID>
+      <AuthorName>Stephen R. Covey</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>5</AuthorID>
+      <AuthorName>Charles Duhigg</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>6</AuthorID>
+      <AuthorName>Nguyễn Nhật Ánh</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>7</AuthorID>
+      <AuthorName>Paulo Coelho</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>8</AuthorID>
+      <AuthorName>Nam Cao</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>9</AuthorID>
+      <AuthorName>Tô Hoài</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>10</AuthorID>
+      <AuthorName>Thanh Hieu</AuthorName>
+    </Author>
+    <Author>
+      <AuthorID>11</AuthorID>
+      <AuthorName>hie</AuthorName>
+    </Author>
+  </Authors>
+  <BookAuthors>
+    <BookAuthor>
+      <BookID>1</BookID>
+      <AuthorID>1</AuthorID>
+    </BookAuthor>
+    <BookAuthor>
+      <BookID>2</BookID>
+      <AuthorID>2</AuthorID>
+    </BookAuthor>
+    <BookAuthor>
+      <BookID>3</BookID>
+      <AuthorID>4</AuthorID>
+    </BookAuthor>
+    <BookAuthor>
+      <BookID>4</BookID>
+      <AuthorID>5</AuthorID>
+    </BookAuthor>
+    <BookAuthor>
+      <BookID>5</BookID>
+      <AuthorID>5</AuthorID>
+    </BookAuthor>
+  </BookAuthors>
 </Library>

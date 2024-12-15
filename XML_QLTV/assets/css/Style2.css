@@ -1,0 +1,115 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.about {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.about_taital {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.bulit_icon img {
+    display: block;
+    margin: 20px auto;
+    width: 50px;
+}
+
+/* Client Section */
+.client_section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.client_section_2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.client_taital_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.client_left {
+    flex: 0 0 150px;
+    text-align: center;
+}
+
+.client_img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eee;
+}
+
+.client_right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.moark_text {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.client_text {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .client_taital_main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .client_left {
+        margin-bottom: 15px;
+    }
+
+    .client_right {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .about_taital {
+        font-size: 2em;
+    }
+
+    .client_taital_main {
+        padding: 15px;
+    }
+
+    .moark_text {
+        font-size: 1.3em;
+    }
+
+    .client_text {
+        font-size: 0.9em;
+    }
+}
