@@ -201,7 +201,7 @@ namespace XML_QLTV.pages.books
                 if (bookNode != null)
                 {
                     // Update the book's fields
-                    bookNode["Title"].InnerText = System.Security.SecurityElement.Escape(Title);
+                    bookNode["Title"].InnerText = System.Security.SecurityElement.Escape(selectedBookTitle);
                     bookNode["PublisherID"].InnerText = selectedBookID;
                     bookNode["CategoryID"].InnerText = selectedBookcategoryID;
                     bookNode["PublishedYear"].InnerText = selectedBookYear;
