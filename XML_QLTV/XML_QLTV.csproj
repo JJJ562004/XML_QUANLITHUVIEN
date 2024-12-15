@@ -876,13 +876,12 @@
     <Content Include="library.xslt">
       <SubType>Designer</SubType>
     </Content>
-<<<<<<< HEAD
+
     <Content Include="SigninAdmin.aspx" />
     <Content Include="pages\books\categories.aspx" />
     <Content Include="pages\books\books.aspx" />
     <Content Include="pages\books\authors.aspx" />
-=======
-<<<<<<< HEAD
+
     <Content Include="pages\books\categories.aspx" />
     <Content Include="pages\books\books.aspx" />
     <Content Include="pages\books\authors.aspx" />
@@ -917,8 +916,7 @@
     <Content Include="vendor\pages\ui-features\buttons.html" />
     <Content Include="vendor\pages\ui-features\dropdowns.html" />
     <Content Include="vendor\pages\ui-features\typography.html" />
->>>>>>> develop
->>>>>>> eff32c611526b411cdafef6b64da68844f61dede
+
     <Content Include="Signin.aspx" />
     <Content Include="TextFile1.txt" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
@@ -980,8 +978,7 @@
     <Compile Include="pages\books\authors.aspx.designer.cs">
       <DependentUpon>authors.aspx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
+
     <Compile Include="pages\books\staff.aspx.cs">
       <DependentUpon>staff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1003,7 +1000,7 @@
     <Compile Include="pages\Login\LoginAdmin.aspx.designer.cs">
       <DependentUpon>LoginAdmin.aspx</DependentUpon>
     </Compile>
->>>>>>> eff32c611526b411cdafef6b64da68844f61dede
+
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signin.aspx.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
