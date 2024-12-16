@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Author" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Author">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AuthorID" type="xs:int" minOccurs="0" />
+                <xs:element name="AuthorName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Author>
+    <AuthorID>1</AuthorID>
+    <AuthorName>Nikolai A. Ostrovsky</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>2</AuthorID>
+    <AuthorName>Dale Carnegie</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>3</AuthorID>
+    <AuthorName>Victor Hugo</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>4</AuthorID>
+    <AuthorName>Stephen R. Covey</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>5</AuthorID>
+    <AuthorName>Charles Duhigg</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>6</AuthorID>
+    <AuthorName>Nguyễn Nhật Ánh</AuthorName>
+  </Author>
+</NewDataSet>

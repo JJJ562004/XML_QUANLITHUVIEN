@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Category" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Category">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CategoryID" type="xs:int" minOccurs="0" />
+                <xs:element name="CategoryName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Category>
+    <CategoryID>1</CategoryID>
+    <CategoryName>Trinh thám</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>2</CategoryID>
+    <CategoryName>Tiểu thuyết</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>3</CategoryID>
+    <CategoryName>Văn học Việt Nam</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>4</CategoryID>
+    <CategoryName>Văn học nước ngoài</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>5</CategoryID>
+    <CategoryName>Tâm lý học</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>6</CategoryID>
+    <CategoryName>Khoa học tự nhiên</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>7</CategoryID>
+    <CategoryName>Thiên văn học</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>8</CategoryID>
+    <CategoryName>Sinh học</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>9</CategoryID>
+    <CategoryName>Kinh tế</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>10</CategoryID>
+    <CategoryName>Chính trị</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>11</CategoryID>
+    <CategoryName>Ngoại ngữ anh</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>12</CategoryID>
+    <CategoryName>Ngoại ngữ Nhật</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>13</CategoryID>
+    <CategoryName>hieupt15</CategoryName>
+  </Category>
+</NewDataSet>
