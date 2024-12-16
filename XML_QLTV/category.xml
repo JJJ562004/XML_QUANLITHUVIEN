@@ -64,4 +64,8 @@
     <CategoryID>12</CategoryID>
     <CategoryName>Ngoại ngữ Nhật</CategoryName>
   </Category>
+  <Category>
+    <CategoryID>13</CategoryID>
+    <CategoryName>hieupt15</CategoryName>
+  </Category>
 </NewDataSet>

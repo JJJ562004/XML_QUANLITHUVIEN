@@ -18,10 +18,26 @@
   </xs:schema>
   <Author>
     <AuthorID>1</AuthorID>
-    <AuthorName>TUAN</AuthorName>
+    <AuthorName>Nikolai A. Ostrovsky</AuthorName>
   </Author>
   <Author>
     <AuthorID>2</AuthorID>
-    <AuthorName>BINH</AuthorName>
+    <AuthorName>Dale Carnegie</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>3</AuthorID>
+    <AuthorName>Victor Hugo</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>4</AuthorID>
+    <AuthorName>Stephen R. Covey</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>5</AuthorID>
+    <AuthorName>Charles Duhigg</AuthorName>
+  </Author>
+  <Author>
+    <AuthorID>6</AuthorID>
+    <AuthorName>Nguyễn Nhật Ánh</AuthorName>
   </Author>
 </NewDataSet>

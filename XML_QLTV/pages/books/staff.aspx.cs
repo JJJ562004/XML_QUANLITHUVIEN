@@ -7,7 +7,6 @@ using System.Web;
 using System.Web.Security;
 using System.Web.UI;
 using System.Windows.Forms;
-using System.Xml.Linq;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace XML_QLTV.pages.books
@@ -148,11 +147,11 @@ namespace XML_QLTV.pages.books
         {
             try
             {
-                string lastName = Request.Form["lastName"].TrimStart(',');
-                string firstName = Request.Form["firstName"].TrimStart(',');
-                string email = Request.Form["email"].TrimStart(',');
+                string lastName = Request.Form["lastName"].TrimEnd(',');
+                string firstName = Request.Form["firstName"].TrimEnd(',');
+                string email = Request.Form["email"].TrimEnd(',');
                 string phoneNumber = Request.Form["phoneNumber"].TrimStart(',');
-                string role = Request.Form["role"].TrimStart(',');
+                string role = Request.Form["role"].TrimEnd(',');
                 string staffID = Request.Form["staffID"];
 
                 if (staffID != null && staffID.Length > 0)

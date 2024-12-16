@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Security.Policy;
+using System.Threading;
 using System.Web;
 using System.Web.UI;
 using System.Windows.Forms;
@@ -86,12 +87,12 @@ namespace XML_QLTV.pages.books
                 }
 
                 string htmlContent = string.Empty;
-
+                int count = 1;
                 foreach (DataRow row in dt.Rows)
                 {
                     htmlContent += $@"
                     <tr>
-                        <td class='align-middle text-center'>{row["AuthorID"]}</td>
+                        <td class='align-middle text-center'>{count}</td>
                         <td class='text-nowrap align-middle'>{HttpUtility.HtmlEncode(row["AuthorName"])}</td>
                         <td class='text-nowrap align-middle'>{randomDate(random)}</td>
                         <td class='text-center align-middle'>
@@ -106,6 +107,7 @@ namespace XML_QLTV.pages.books
                             </div>
                         </td>
                     </tr>";
+                    count++;
                 }
 
                 // Assign the generated HTML to the table content
@@ -123,6 +125,28 @@ namespace XML_QLTV.pages.books
             {
                 // Get selected AuthorIDs from Request.Form
                 string[] selectedAuthorIDs = Request.Form.GetValues("deleteCheckbox");
+                // Delete book in library.xml
+                string fileXML = Server.MapPath("~/library.xml");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(fileXML);
+
+                // Locate the book node using BookID
+                foreach (string authorID in selectedAuthorIDs)
+                {
+                    XmlNode authorNode = doc.SelectSingleNode($"/Library/Authors/Author[AuthorID='{authorID}']");
+                    if (authorNode != null)
+                    {
+                        XmlNode authorsNode = doc.SelectSingleNode("/Library/Authors");
+                        authorsNode.RemoveChild(authorNode);
+                        doc.Save(fileXML);
+                    }
+                    else
+                    {
+                        throw new Exception("Author with specified ID " + authorID + " not found.");
+                    }
+                }
+
+
 
                 if (selectedAuthorIDs != null && selectedAuthorIDs.Length > 0)
                 {
@@ -137,23 +161,7 @@ namespace XML_QLTV.pages.books
                     Response.Write("<script>alert('No authors selected for deletion.')</script>");
                 }
 
-                // Delete book in library.xml
-                string fileXML = Server.MapPath("~/library.xml");
-                XmlDocument doc = new XmlDocument();
-                doc.Load(fileXML);
 
-                // Locate the book node using BookID
-                XmlNode authorNode = doc.SelectSingleNode($"/Library/Authors/Author[AuthorID='{selectedAuthorIDs}']");
-                if (authorNode != null)
-                {
-                    XmlNode authorsNode = doc.SelectSingleNode("/Library/Authors");
-                    authorsNode.RemoveChild(authorNode);
-                    doc.Save(fileXML);
-                }
-                else
-                {
-                    throw new Exception("Author with specified ID not found.");
-                }
                 // Reload the authors table
                 LoadAuthors();
             }
@@ -232,12 +240,12 @@ namespace XML_QLTV.pages.books
                     LoadAuthors();
                     return;
                 }
-
+                int count = 1;
                 foreach (DataRow row in dt.Rows)
                 {
                     htmlContent += $@"
             <tr>
-                <td class='align-middle text-center'>{row["AuthorID"]}</td>
+                <td class='align-middle text-center'>{count}</td>
                 <td class='text-nowrap align-middle'>{HttpUtility.HtmlEncode(row["AuthorName"])}</td>
                 <td class='text-nowrap align-middle'>{randomDate(random)}</td>
                 <td class='text-center align-middle'>
@@ -252,11 +260,11 @@ namespace XML_QLTV.pages.books
                     </div>
                 </td>
             </tr>";
+                    count++;
                 }
 
                 // Assign the filtered HTML to the table content
                 tableContent.InnerHtml = htmlContent;
-
 
             }
             catch (Exception ex)
@@ -338,37 +346,31 @@ namespace XML_QLTV.pages.books
                     return;
                 }
 
+                
+
+                // 2. Add to Database
+                AddAuthorToDatabase(authorName);
+
                 // 1. Add to XML File
                 // Load the XML file
                 XmlDocument doc = new XmlDocument();
-                string fileXML = Server.MapPath("~/library.xml");
+                string fileXML = Server.MapPath("../../library.xml");
                 doc.Load(fileXML);
 
                 XmlNodeList authorNodes = doc.SelectNodes("/Library/Authors/Author/AuthorID");
-                int maxAuthorId = 0;
-                foreach (XmlNode authorNode in authorNodes)
-                {
-                    int currentID = int.Parse(authorNode.InnerText);
-                    if (currentID > maxAuthorId)
-                    {
-                        maxAuthorId = currentID;
-                    }
-                }
-                int newAuthorId = maxAuthorId + 1; // Increment to generate the next ID
+               
+                int newAuthorId = GetNewAuthorID(); // Increment to generate the next ID
 
                 // Construct the new book XML
                 XmlElement newAuthor = doc.CreateElement("Author");
                 newAuthor.InnerXml = $@"
                 <AuthorID>{newAuthorId}</AuthorID>
-                <AuthorName>{System.Security.SecurityElement.Escape(authorName)}</AuthorName>";          
+                <AuthorName>{System.Security.SecurityElement.Escape(authorName)}</AuthorName>";
                 // Add the new book to the document
                 XmlNode booksNode = doc.SelectSingleNode("/Library/Authors");
                 booksNode.AppendChild(newAuthor);
                 // Save the updated XML
                 doc.Save(fileXML);
-
-                // 2. Add to Database
-                AddAuthorToDatabase(authorName);
 
                 // Success message
                 Response.Write("<script>alert('Thêm tác giả thành công!')</script>");
@@ -378,6 +380,45 @@ namespace XML_QLTV.pages.books
             {
                 Response.Write($"<script>alert('Lỗi: {HttpUtility.HtmlEncode(ex.Message)}')</script>");
             }
+        }
+
+
+        int GetNewAuthorID()
+        {
+            int maxAuthorId = 0;
+
+            // Define your database connection string
+            string connectionString = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;";
+
+            // Query to get the maximum AuthorID
+            string query = "SELECT MAX(AuthorID) FROM Author";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        object result = cmd.ExecuteScalar();
+
+                        // Check if result is not null and parse the value
+                        if (result != DBNull.Value && result != null)
+                        {
+                            maxAuthorId = Convert.ToInt32(result);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Log the error (use a logging framework in production)
+                    Console.WriteLine($"Error: {ex.Message}");
+                    throw;
+                }
+            }
+
+            // Increment the maximum AuthorID to generate the next ID
+            return maxAuthorId;
         }
 
 

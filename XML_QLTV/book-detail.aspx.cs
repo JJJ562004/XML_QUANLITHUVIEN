@@ -21,7 +21,7 @@ namespace XML_QLTV
 
         private void GetBookDetails(string bookId)
         {
-            string connectionString = "Data Source=BINHTRAN\\BINHVAN;Initial Catalog=WNC_QUANLYTHUVIEN2;Integrated Security=True;";
+            string connectionString = "Data Source = ADMIN-PC; Initial Catalog = WNC_QUANLYTHUVIEN_REAL; Integrated Security = True; Encrypt = False; trustservercertificate = True";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {

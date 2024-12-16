@@ -876,11 +876,10 @@
     <Content Include="library.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="pages\Login\Login.aspx" />
-    <Content Include="pages\Login\LoginAdmin.aspx" />
     <Content Include="pages\books\categories.aspx" />
     <Content Include="pages\books\books.aspx" />
     <Content Include="pages\books\authors.aspx" />
+    <Content Include="pages\books\staff.aspx" />
     <Content Include="pages\charts\chartjs.html" />
     <Content Include="pages\forms\basic_elements.html" />
     <Content Include="pages\icons\font-awesome.html" />
@@ -894,6 +893,7 @@
     <Content Include="pages\ui-features\dropdowns.html" />
     <Content Include="pages\ui-features\typography.html" />
     <Content Include="Signin.aspx" />
+    <Content Include="SigninAdmin.aspx" />
     <Content Include="TextFile1.txt" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
@@ -947,21 +947,13 @@
     <Compile Include="pages\books\authors.aspx.designer.cs">
       <DependentUpon>authors.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\Login\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="pages\books\staff.aspx.cs">
+      <DependentUpon>staff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pages\Login\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="pages\books\staff.aspx.designer.cs">
+      <DependentUpon>staff.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\Login\LoginAdmin.aspx.cs">
-      <DependentUpon>LoginAdmin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\Login\LoginAdmin.aspx.designer.cs">
-      <DependentUpon>LoginAdmin.aspx</DependentUpon>
-    </Compile>
-
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signin.aspx.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
@@ -969,6 +961,13 @@
     </Compile>
     <Compile Include="Signin.aspx.designer.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SigninAdmin.aspx.cs">
+      <DependentUpon>SigninAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SigninAdmin.aspx.designer.cs">
+      <DependentUpon>SigninAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="TaoXML.cs" />
   </ItemGroup>
@@ -1110,6 +1109,7 @@
   <ItemGroup>
     <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
+    <Folder Include="pages\Login\" />
     <Folder Include="vendor\pages\" />
   </ItemGroup>
   <PropertyGroup>

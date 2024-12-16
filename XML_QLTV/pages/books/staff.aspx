@@ -151,7 +151,7 @@
                                             <div class="text-center px-xl-3">
                                                 <asp:Button
                                                     runat="server"
-                                                    Text="Xoá sách"
+                                                    Text="Xoá cán bộ"
                                                     CssClass="btn btn-danger"
                                                     OnClick="DeleteSelectedBooks_Click"
                                                     OnClientClick="return confirm('Bạn muốn xoá những cán bộ đã chọn?');" />

@@ -5,9 +5,10 @@ using System.Data.SqlClient;
 using System.Security.Policy;
 using System.Web;
 using System.Web.UI;
+using System.Windows.Controls;
 using System.Windows.Forms;
 using System.Xml;
-using System.Xml.Linq;
+
 
 namespace XML_QLTV.pages.books
 {
@@ -125,6 +126,26 @@ namespace XML_QLTV.pages.books
             {
                 // Get selected AuthorIDs from Request.Form
                 string[] selectedAuthorIDs = Request.Form.GetValues("deleteCheckbox");
+                // Delete book in library.xml
+                string fileXML = Server.MapPath("~/library.xml");
+                XmlDocument doc = new XmlDocument();
+                doc.Load(fileXML);
+                foreach (string authorID in selectedAuthorIDs)
+                {
+                    XmlNode authorNode = doc.SelectSingleNode($"/Library/Books/Book[BookID='{authorID}']");
+                    if (authorNode != null)
+                    {
+                        XmlNode authorsNode = doc.SelectSingleNode("/Library/Books");
+                        authorsNode.RemoveChild(authorNode);
+                        doc.Save(fileXML);
+                    }
+                    else
+                    {
+
+                        throw new Exception("Books with specified ID " + authorID + " not found.");
+                    }
+                }
+
 
                 if (selectedAuthorIDs != null && selectedAuthorIDs.Length > 0)
                 {
@@ -139,23 +160,7 @@ namespace XML_QLTV.pages.books
                     Response.Write("<script>alert('No books selected for deletion.')</script>");
                 }
 
-                // Delete book in library.xml
-                string fileXML = Server.MapPath("~/library.xml");
-                XmlDocument doc = new XmlDocument();
-                doc.Load(fileXML);
-
-                // Locate the book node using BookID
-                XmlNode bookNode = doc.SelectSingleNode($"/Library/Books/Book[BookID='{selectedAuthorIDs}']");
-                if (bookNode != null)
-                {
-                    XmlNode booksNode = doc.SelectSingleNode("/Library/Books");
-                    booksNode.RemoveChild(bookNode);
-                    doc.Save(fileXML);
-                }
-                else
-                {
-                    throw new Exception("Book with specified ID not found.");
-                }
+                
 
                 // Reload the authors table
                 LoadBooks();
@@ -394,6 +399,12 @@ namespace XML_QLTV.pages.books
                     return;
                 }
 
+               
+
+                // 2. Add to Database
+                AddBookToDatabase(bookName, PublisherID, CategoryID, PublishedYear, Quantity, Description, ImageURL);
+
+
                 // 1. Add to XML File library.xml
                 // Load the XML file
                 string fileXML = Server.MapPath("~/library.xml");
@@ -411,7 +422,7 @@ namespace XML_QLTV.pages.books
                         maxBookID = currentID;
                     }
                 }
-                int newBookID = maxBookID + 1; // Increment to generate the next ID
+                int newBookID = GetNewBookID(); ; // Increment to generate the next ID
 
                 // Construct the new book XML
                 XmlElement newBook = doc.CreateElement("Book");
@@ -430,9 +441,6 @@ namespace XML_QLTV.pages.books
                 // Save the updated XML
                 doc.Save(fileXML);
 
-                // 2. Add to Database
-                AddBookToDatabase(bookName, PublisherID, CategoryID, PublishedYear, Quantity, Description, ImageURL);
-
                 // Success message
                 Response.Write("<script>alert('Thêm sách thành công!')</script>");
                 Response.Redirect(Request.RawUrl); // Refresh the page
@@ -441,6 +449,45 @@ namespace XML_QLTV.pages.books
             {
                 Response.Write($"<script>alert('Lỗi: {HttpUtility.HtmlEncode(ex.Message)}')</script>");
             }
+        }
+
+
+        int GetNewBookID()
+        {
+            int maxAuthorId = 0;
+
+            // Define your database connection string
+            string connectionString = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;";
+
+            // Query to get the maximum AuthorID
+            string query = "SELECT MAX(BookID) FROM Book";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        object result = cmd.ExecuteScalar();
+
+                        // Check if result is not null and parse the value
+                        if (result != DBNull.Value && result != null)
+                        {
+                            maxAuthorId = Convert.ToInt32(result);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Log the error (use a logging framework in production)
+                    Console.WriteLine($"Error: {ex.Message}");
+                    throw;
+                }
+            }
+
+            // Increment the maximum AuthorID to generate the next ID
+            return maxAuthorId;
         }
 
 

@@ -11,7 +11,7 @@ namespace XML_QLTV
 {
     public partial class Signin : System.Web.UI.Page
     {
-        string conString = "Data Source=BINHTRAN\\BINHVAN;Initial Catalog=WNC_QUANLYTHUVIEN;Integrated Security=True";
+        string conString = "Data Source=ADMIN-PC;Initial Catalog=WNC_QUANLYTHUVIEN_REAL;Integrated Security=True;Encrypt=False;trustservercertificate=True";
 
         protected void Page_Load(object sender, EventArgs e)
         {
